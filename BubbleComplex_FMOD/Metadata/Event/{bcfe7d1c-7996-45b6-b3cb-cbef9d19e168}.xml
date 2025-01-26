@@ -73,9 +73,12 @@
 	</object>
 	<object class="EventMixerMaster" id="{20f86af4-23b6-4cf8-8937-68ddf0cdb5cc}">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 		<property name="volume">
 			<value>4</value>
 		</property>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 		<relationship name="effectChain">

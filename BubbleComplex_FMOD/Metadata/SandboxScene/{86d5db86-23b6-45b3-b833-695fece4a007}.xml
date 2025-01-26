@@ -35,6 +35,7 @@
 	<object class="SandboxEmitter" id="{ed309f7f-9090-491e-b159-b246a6bb33e1}">
 		<property name="positionX">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<value>23.8250008</value>
 		</property>
 		<property name="positionZ">
@@ -43,6 +44,8 @@
 		<property name="rotationY">
 			<value>-57.433712</value>
 =======
+=======
+>>>>>>> Stashed changes
 			<value>7.4749999</value>
 		</property>
 		<property name="positionZ">
@@ -50,6 +53,9 @@
 		</property>
 		<property name="rotationY">
 			<value>-33.6532669</value>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		</property>
 		<relationship name="event">
@@ -59,6 +65,7 @@
 	<object class="SandboxEmitter" id="{bc0fb4e6-1f1c-4761-8446-faa61796a132}">
 		<property name="positionX">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<value>1.17499948</value>
 		</property>
 		<property name="positionZ">
@@ -67,6 +74,8 @@
 		<property name="rotationY">
 			<value>-85.987175</value>
 =======
+=======
+>>>>>>> Stashed changes
 			<value>12.625</value>
 		</property>
 		<property name="positionZ">
@@ -74,6 +83,9 @@
 		</property>
 		<property name="rotationY">
 			<value>64.8631973</value>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 		</property>
 		<relationship name="event">
