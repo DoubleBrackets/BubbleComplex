@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{99c32dbd-ba76-452e-996e-fc7c02025cda}">
+		<property name="assetPath">
+			<value>Bubble_drop21.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.7418820861678004</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9ab35ede-8f9b-49ed-81b6-7badc882a61d}</destination>
+		</relationship>
+	</object>
+</objects>
