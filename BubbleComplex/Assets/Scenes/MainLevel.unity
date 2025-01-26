@@ -1386,11 +1386,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1827360424
-      Data2: 1262386444
-      Data3: 1025030331
-      Data4: -1399753126
-    Path: event:/BubblePlayer/BubbleDrop
+      Data1: -1854663218
+      Data2: 1190742294
+      Data3: 833040281
+      Data4: -1991800835
+    Path: event:/BubblePlayer/Bubble_Drop
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -6845,11 +6845,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1184706420
-      Data2: 1162884055
-      Data3: 1265599670
-      Data4: 388035382
-    Path: event:/BubblePlayer/BubblePickUP
+      Data1: -1124172516
+      Data2: 1169586582
+      Data3: -271856717
+      Data4: 1759582621
+    Path: event:/BubblePlayer/Bubble_PickUp
   Event: 
   EventPlayTrigger: 1
   EventStopTrigger: 0
@@ -6908,11 +6908,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -762436600
-      Data2: 1210845263
-      Data3: 425628314
-      Data4: -1392312093
-    Path: event:/BubblePlayer/CrackPop1
+      Data1: 1781154059
+      Data2: 1266701470
+      Data3: 1568616611
+      Data4: 515282136
+    Path: event:/BubblePlayer/HardenLoop
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0

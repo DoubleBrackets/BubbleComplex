@@ -4935,7 +4935,7 @@ GameObject:
   - component: {fileID: 7253196578105686612}
   - component: {fileID: 6685571337485396193}
   m_Layer: 0
-  m_Name: Harden
+  m_Name: HardenLoop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4971,11 +4971,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1854663218
-      Data2: 1190742294
-      Data3: 833040281
-      Data4: -1991800835
-    Path: event:/BubblePlayer/Bubble_Drop
+      Data1: 1781154059
+      Data2: 1266701470
+      Data3: 1568616611
+      Data4: 515282136
+    Path: event:/BubblePlayer/HardenLoop
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -5034,11 +5034,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1781154059
-      Data2: 1266701470
-      Data3: 1568616611
-      Data4: 515282136
-    Path: event:/BubblePlayer/CrackPop
+      Data1: -762436600
+      Data2: 1210845263
+      Data3: 425628314
+      Data4: -1392312093
+    Path: event:/BubblePlayer/CrackPop1
   Event: 
   EventPlayTrigger: 0
   EventStopTrigger: 0
@@ -5203,7 +5203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnHarden.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -5234,6 +5234,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 4703219107550228976}
@@ -5245,6 +5249,10 @@ PrefabInstance:
       propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 612114408888294325}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 6685571337485396193}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnHarden.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -5274,6 +5282,10 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Play
       objectReference: {fileID: 0}
@@ -5284,6 +5296,10 @@ PrefabInstance:
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: Stop
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnHarden.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -5314,6 +5330,10 @@ PrefabInstance:
       value: FMODUnity.StudioEventEmitter, FMODUnity
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: FMODUnity.StudioEventEmitter, FMODUnity
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnHarden.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Harden
       objectReference: {fileID: 0}
@@ -5334,6 +5354,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Unharden
       objectReference: {fileID: 0}
@@ -5343,6 +5367,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Unharden
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
       value: Unharden
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
@@ -5363,6 +5391,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnUnHarden.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
