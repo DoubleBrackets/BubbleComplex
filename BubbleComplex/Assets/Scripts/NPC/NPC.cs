@@ -37,6 +37,12 @@ namespace NPC
         [SerializeField]
         private Transform _body;
 
+        [SerializeField]
+        private Animator _anim;
+
+        [SerializeField]
+        private SpriteRenderer _spriteRenderer;
+
         [Header("Movement Config")]
 
         [SerializeField]
@@ -103,6 +109,15 @@ namespace NPC
                 default:
                     throw new ArgumentOutOfRangeException();
             }
+
+            if (_simpleMovement.Rb.linearVelocity.x > 0)
+            {
+                _spriteRenderer.flipX = false;
+            }
+            else if (_simpleMovement.Rb.linearVelocity.x < 0)
+            {
+                _spriteRenderer.flipX = true;
+            }
         }
 
         private void OnDestroy()
@@ -159,6 +174,7 @@ namespace NPC
             Vector2 direction = _targetPosition - (Vector2)_body.position;
 
             _simpleMovement.Move(_followMovementConfig, direction, Time.deltaTime);
+            _anim.Play(WalkAnim(direction));
         }
 
         private void OnAbsorbedByOther(Bubble.Bubble other)
@@ -194,10 +210,12 @@ namespace NPC
             if (direction.magnitude > 0.5f)
             {
                 _simpleMovement.Move(_wanderingMovement, direction, Time.deltaTime);
+                _anim.Play(WalkAnim(direction));
             }
             else
             {
                 _simpleMovement.StandStill(_wanderingMovement, Time.deltaTime);
+                _anim.Play(WalkAnim(Vector2.zero));
             }
 
             // Distance from wander center
@@ -222,16 +240,39 @@ namespace NPC
                 if (direction.magnitude > _followDistance)
                 {
                     _simpleMovement.Move(_tetheredMovementConfig, direction, Time.deltaTime);
+                    _anim.Play(WalkAnim(direction));
                 }
                 else
                 {
                     _simpleMovement.StandStill(_tetheredMovementConfig, Time.deltaTime);
+                    _anim.Play(WalkAnim(Vector2.zero));
                 }
             }
             else
             {
                 _simpleMovement.StandStill(_tetheredMovementConfig, Time.deltaTime);
+                _anim.Play("Shout");
             }
+        }
+
+        private string WalkAnim(Vector2 input)
+        {
+            if (input == Vector2.zero)
+            {
+                return "Idle";
+            }
+
+            if (input.y > Mathf.Abs(input.x))
+            {
+                return "Walk Up R";
+            }
+
+            if (input.y < Mathf.Abs(input.x))
+            {
+                return "Walk Down R";
+            }
+
+            return "Walk Straight R";
         }
     }
 }

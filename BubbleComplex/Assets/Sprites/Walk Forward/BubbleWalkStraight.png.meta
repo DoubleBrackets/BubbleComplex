@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: b75c3f237d327bf42b4845b15a9367ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -757494379875924865
+    second: BubbleWalkStraight_0
+  - first:
+      213: 7581047833128985806
+    second: BubbleWalkStraight_1
+  - first:
+      213: -2453168265991190271
+    second: BubbleWalkStraight_2
+  - first:
+      213: 125925756061769261
+    second: BubbleWalkStraight_3
+  - first:
+      213: 4606001374499675490
+    second: BubbleWalkStraight_4
+  - first:
+      213: 7884790166245918501
+    second: BubbleWalkStraight_5
+  - first:
+      213: 5049695629557010032
+    second: BubbleWalkStraight_6
+  - first:
+      213: -8519748756936927332
+    second: BubbleWalkStraight_7
+  - first:
+      213: -5622223756903331628
+    second: BubbleWalkStraight_8
+  - first:
+      213: 8805930862130280167
+    second: BubbleWalkStraight_9
+  - first:
+      213: 104072266136246668
+    second: BubbleWalkStraight_10
+  - first:
+      213: -6600634585705010864
+    second: BubbleWalkStraight_11
+  - first:
+      213: -6169518621650929361
+    second: BubbleWalkStraight_12
+  - first:
+      213: -1297959478118258431
+    second: BubbleWalkStraight_13
+  - first:
+      213: 4573653047879984002
+    second: BubbleWalkStraight_14
+  - first:
+      213: -727313487037343321
+    second: BubbleWalkStraight_15
+  - first:
+      213: -559662163729049508
+    second: BubbleWalkStraight_16
+  - first:
+      213: 629749864260364680
+    second: BubbleWalkStraight_17
+  - first:
+      213: -7072825531234935645
+    second: BubbleWalkStraight_18
+  - first:
+      213: 8375660919600776909
+    second: BubbleWalkStraight_19
+  - first:
+      213: 2082411771782500121
+    second: BubbleWalkStraight_20
+  - first:
+      213: -4851360669134810025
+    second: BubbleWalkStraight_21
+  - first:
+      213: -7831470673495521691
+    second: BubbleWalkStraight_22
+  - first:
+      213: -7505408929175446012
+    second: BubbleWalkStraight_23
+  - first:
+      213: 4088541944973830083
+    second: BubbleWalkStraight_24
+  - first:
+      213: -1790388231621490399
+    second: BubbleWalkStraight_25
+  - first:
+      213: 559037327568585790
+    second: BubbleWalkStraight_26
+  - first:
+      213: -8376315967229410728
+    second: BubbleWalkStraight_27
+  - first:
+      213: -6567945053042731411
+    second: BubbleWalkStraight_28
+  - first:
+      213: -3945218456802031958
+    second: BubbleWalkStraight_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BubbleWalkStraight_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 565
+        width: 183
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f740428ffd6dc75f0800000000000000
+      internalID: -757494379875924865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 565
+        width: 182
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4e5ee86da453960800000000000000
+      internalID: 7581047833128985806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 561
+        width: 182
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1098553a57894fdd0800000000000000
+      internalID: -2453168265991190271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_3
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 559
+        width: 183
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e5226dec06fb100800000000000000
+      internalID: 125925756061769261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_4
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 560
+        width: 183
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d9302b8ddcbef30800000000000000
+      internalID: 4606001374499675490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_5
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 560
+        width: 183
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527c49b71e66c6d60800000000000000
+      internalID: 7884790166245918501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_6
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 563
+        width: 183
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e869fab6f141640800000000000000
+      internalID: 5049695629557010032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_7
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 567
+        width: 183
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97d23725a5c3c980800000000000000
+      internalID: -8519748756936927332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_8
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 570
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8c30ae749d9f1b0800000000000000
+      internalID: -5622223756903331628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_9
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 574
+        width: 183
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6bce99673f43a70800000000000000
+      internalID: 8805930862130280167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 185
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c895506bc2db17100800000000000000
+      internalID: 104072266136246668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 307
+        width: 187
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05925e2e0d5d564a0800000000000000
+      internalID: -6600634585705010864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_12
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 305
+        width: 187
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29b6594087716aa0800000000000000
+      internalID: -6169518621650929361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_13
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 300
+        width: 187
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109e8e54bb8bcfde0800000000000000
+      internalID: -1297959478118258431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_14
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 298
+        width: 184
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283e4ccf631e87f30800000000000000
+      internalID: 4573653047879984002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_15
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 297
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9d9ccac3018e5f0800000000000000
+      internalID: -727313487037343321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_16
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 295
+        width: 183
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5814b03a3eab38f0800000000000000
+      internalID: -559662163729049508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_17
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 291
+        width: 182
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889e69c3a225db800800000000000000
+      internalID: 629749864260364680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_18
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 287
+        width: 182
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac9d6c17a648dd90800000000000000
+      internalID: -7072825531234935645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_19
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 283
+        width: 182
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc60defea335c3470800000000000000
+      internalID: 8375660919600776909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 183
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f003d297636ec10800000000000000
+      internalID: 2082411771782500121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_21
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 4
+        width: 183
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7541beecc218cacb0800000000000000
+      internalID: -4851360669134810025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_22
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 4
+        width: 182
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56609655ae6015390800000000000000
+      internalID: -7831470673495521691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_23
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 5
+        width: 182
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ed372285e67d790800000000000000
+      internalID: -7505408929175446012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_24
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 8
+        width: 183
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c72377ac3b6db830800000000000000
+      internalID: 4088541944973830083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_25
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 12
+        width: 183
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1294924a3634727e0800000000000000
+      internalID: -1790388231621490399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_26
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 15
+        width: 183
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34c8edcc7912c700800000000000000
+      internalID: 559037327568585790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_27
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 19
+        width: 182
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852cbd6e10951cb80800000000000000
+      internalID: -8376315967229410728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_28
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 19
+        width: 182
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d669a11d5c8f9d4a0800000000000000
+      internalID: -6567945053042731411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkStraight_29
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 19
+        width: 183
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6000957b4cf39c0800000000000000
+      internalID: -3945218456802031958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BubbleWalkStraight_0: -757494379875924865
+      BubbleWalkStraight_1: 7581047833128985806
+      BubbleWalkStraight_10: 104072266136246668
+      BubbleWalkStraight_11: -6600634585705010864
+      BubbleWalkStraight_12: -6169518621650929361
+      BubbleWalkStraight_13: -1297959478118258431
+      BubbleWalkStraight_14: 4573653047879984002
+      BubbleWalkStraight_15: -727313487037343321
+      BubbleWalkStraight_16: -559662163729049508
+      BubbleWalkStraight_17: 629749864260364680
+      BubbleWalkStraight_18: -7072825531234935645
+      BubbleWalkStraight_19: 8375660919600776909
+      BubbleWalkStraight_2: -2453168265991190271
+      BubbleWalkStraight_20: 2082411771782500121
+      BubbleWalkStraight_21: -4851360669134810025
+      BubbleWalkStraight_22: -7831470673495521691
+      BubbleWalkStraight_23: -7505408929175446012
+      BubbleWalkStraight_24: 4088541944973830083
+      BubbleWalkStraight_25: -1790388231621490399
+      BubbleWalkStraight_26: 559037327568585790
+      BubbleWalkStraight_27: -8376315967229410728
+      BubbleWalkStraight_28: -6567945053042731411
+      BubbleWalkStraight_29: -3945218456802031958
+      BubbleWalkStraight_3: 125925756061769261
+      BubbleWalkStraight_4: 4606001374499675490
+      BubbleWalkStraight_5: 7884790166245918501
+      BubbleWalkStraight_6: 5049695629557010032
+      BubbleWalkStraight_7: -8519748756936927332
+      BubbleWalkStraight_8: -5622223756903331628
+      BubbleWalkStraight_9: 8805930862130280167
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

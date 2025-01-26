@@ -1,3 +1,4 @@
+using Events;
 using Global;
 using UnityEngine;
 using Util;
@@ -12,10 +13,21 @@ namespace Protag
             Harden
         }
 
+        [Header("Event (In)")]
+
+        [SerializeField]
+        private SOEvent _onEnterNegative;
+
+        [SerializeField]
+        private SOEvent _onExitNegative;
+
         [Header("Stats")]
 
         [SerializeField]
         private MovementConfig _movementConfig;
+
+        [SerializeField]
+        private MovementConfig _negativeConfig;
 
         [SerializeField]
         private float _minimumHardenTime;
@@ -26,7 +38,10 @@ namespace Protag
         private SimpleMovement _simpleMovement;
 
         [SerializeField]
-        private Animator _animator;
+        public Animator _animator;
+
+        [SerializeField]
+        private SpriteRenderer _spriteRenderer;
 
         [SerializeField]
         private Bubble.Bubble _bubble;
@@ -41,13 +56,32 @@ namespace Protag
 
         private float _hardenTime;
 
+        private bool _inNegative;
+
+        private void Awake()
+        {
+            _onEnterNegative.AddListener(OnEnterNegative);
+            _onExitNegative.AddListener(OnExitNegative);
+        }
+
         private void Update()
         {
             GetInput();
 
             if (_movementState == MovementState.Normal)
             {
-                _simpleMovement.Move(_movementConfig, _horizontalMovement, Time.deltaTime);
+                _simpleMovement.Move(
+                    _inNegative ? _negativeConfig : _movementConfig,
+                    _horizontalMovement, Time.deltaTime);
+
+                if (_inNegative)
+                {
+                    _animator.Play("Slowed");
+                }
+                else
+                {
+                    _animator.Play(WalkAnim(_horizontalMovement));
+                }
             }
             else if (_movementState == MovementState.Harden)
             {
@@ -56,6 +90,22 @@ namespace Protag
             }
 
             _globalState.PlayerPos = _simpleMovement.Rb.position;
+        }
+
+        private void OnDestroy()
+        {
+            _onEnterNegative.RemoveListener(OnEnterNegative);
+            _onExitNegative.RemoveListener(OnExitNegative);
+        }
+
+        private void OnEnterNegative()
+        {
+            _inNegative = true;
+        }
+
+        private void OnExitNegative()
+        {
+            _inNegative = false;
         }
 
         private void GetInput()
@@ -80,6 +130,15 @@ namespace Protag
                     ExitHarden();
                 }
             }
+
+            if (_horizontalMovement.x > 0)
+            {
+                _spriteRenderer.flipX = false;
+            }
+            else if (_horizontalMovement.x < 0)
+            {
+                _spriteRenderer.flipX = true;
+            }
         }
 
         private void EnterHarden()
@@ -87,12 +146,34 @@ namespace Protag
             _hardenTime = 0;
             _movementState = MovementState.Harden;
             _bubble.SetHardened(true);
+            _animator.Play("HardenedDown");
         }
 
         private void ExitHarden()
         {
             _movementState = MovementState.Normal;
             _bubble.SetHardened(false);
+            _animator.Play("HardenedUp");
+        }
+
+        private string WalkAnim(Vector2 input)
+        {
+            if (input == Vector2.zero)
+            {
+                return "Idle";
+            }
+
+            if (input.y > 0)
+            {
+                return "Walk Up R";
+            }
+
+            if (input.y < 0)
+            {
+                return "Walk Down R";
+            }
+
+            return "Walk Straight R";
         }
     }
 }

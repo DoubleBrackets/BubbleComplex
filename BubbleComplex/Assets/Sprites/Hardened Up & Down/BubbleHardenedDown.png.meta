@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 98f959e7d2386e1438f9663531d47b35
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6240735932145822421
+    second: BubbleHardenedDown_0
+  - first:
+      213: 3756164940538714250
+    second: BubbleHardenedDown_1
+  - first:
+      213: -9154799845013372433
+    second: BubbleHardenedDown_2
+  - first:
+      213: -6499718879452829267
+    second: BubbleHardenedDown_3
+  - first:
+      213: 5346120122958217583
+    second: BubbleHardenedDown_4
+  - first:
+      213: -5529347042088272789
+    second: BubbleHardenedDown_5
+  - first:
+      213: 762022915614272356
+    second: BubbleHardenedDown_6
+  - first:
+      213: 9119276008097919746
+    second: BubbleHardenedDown_7
+  - first:
+      213: 7533196967419378632
+    second: BubbleHardenedDown_8
+  - first:
+      213: -2881985152424743660
+    second: BubbleHardenedDown_9
+  - first:
+      213: 1549927661693615757
+    second: BubbleHardenedDown_10
+  - first:
+      213: 5846664217009384033
+    second: BubbleHardenedDown_11
+  - first:
+      213: 3797877210133294027
+    second: BubbleHardenedDown_12
+  - first:
+      213: 349715345688631892
+    second: BubbleHardenedDown_13
+  - first:
+      213: -1546413829609728503
+    second: BubbleHardenedDown_14
+  - first:
+      213: -5118198791310710607
+    second: BubbleHardenedDown_15
+  - first:
+      213: 8849121638331738590
+    second: BubbleHardenedDown_16
+  - first:
+      213: 3831835890482696506
+    second: BubbleHardenedDown_17
+  - first:
+      213: -3322309343079267243
+    second: BubbleHardenedDown_18
+  - first:
+      213: 8694539205476247679
+    second: BubbleHardenedDown_19
+  - first:
+      213: 7266250494739715215
+    second: BubbleHardenedDown_20
+  - first:
+      213: 8615371765043422864
+    second: BubbleHardenedDown_21
+  - first:
+      213: -1187151325330690
+    second: BubbleHardenedDown_22
+  - first:
+      213: -7092506736185110607
+    second: BubbleHardenedDown_23
+  - first:
+      213: -6650004749514900516
+    second: BubbleHardenedDown_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BubbleHardenedDown_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 801
+        width: 188
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5da6194f34c8b9650800000000000000
+      internalID: 6240735932145822421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_1
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 803
+        width: 185
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a881696cc14902430800000000000000
+      internalID: 3756164940538714250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 804
+        width: 185
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe14d209b0e93f080800000000000000
+      internalID: -9154799845013372433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_3
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 806
+        width: 186
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9605abd1c5cc5a0800000000000000
+      internalID: -6499718879452829267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_4
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 807
+        width: 191
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f610e774deb313a40800000000000000
+      internalID: 5346120122958217583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_5
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 809
+        width: 195
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cb8743920d343b0800000000000000
+      internalID: -5529347042088272789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_6
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 812
+        width: 200
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b65ebedcf339a00800000000000000
+      internalID: 762022915614272356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 550
+        width: 205
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2033b6f963d2e8e70800000000000000
+      internalID: 9119276008097919746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 554
+        width: 209
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbf412baba4b8860800000000000000
+      internalID: 7533196967419378632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_9
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 562
+        width: 215
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41de5c5f5c12108d0800000000000000
+      internalID: -2881985152424743660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_10
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 573
+        width: 220
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ebcc61ff2728510800000000000000
+      internalID: 1549927661693615757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_11
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 587
+        width: 235
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ae4dfd026832150800000000000000
+      internalID: 5846664217009384033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_12
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 601
+        width: 250
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbeb8a5335c4b430800000000000000
+      internalID: 3797877210133294027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_13
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 618
+        width: 262
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a164801407ad400800000000000000
+      internalID: 349715345688631892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 363
+        width: 268
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9065c52b0d80a8ae0800000000000000
+      internalID: -1546413829609728503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_15
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 356
+        width: 270
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b86712115188f8b0800000000000000
+      internalID: -5118198791310710607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_16
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 355
+        width: 272
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed96cf2de356eca70800000000000000
+      internalID: 8849121638331738590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_17
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 354
+        width: 274
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3150d1c07a6d2530800000000000000
+      internalID: 3831835890482696506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_18
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 353
+        width: 273
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5548ccb3149c4e1d0800000000000000
+      internalID: -3322309343079267243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_19
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 351
+        width: 270
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f786e1c775539a870800000000000000
+      internalID: 8694539205476247679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_20
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 350
+        width: 265
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8497f3a358e6d460800000000000000
+      internalID: 7266250494739715215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 84
+        width: 260
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096e75f59f2ff8770800000000000000
+      internalID: 8615371765043422864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 84
+        width: 254
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef285faca48cbfff0800000000000000
+      internalID: -1187151325330690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_23
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 84
+        width: 247
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf0f9e73ba529d90800000000000000
+      internalID: -7092506736185110607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedDown_24
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 84
+        width: 240
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbf08ed9ef66b3a0800000000000000
+      internalID: -6650004749514900516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BubbleHardenedDown_0: 6240735932145822421
+      BubbleHardenedDown_1: 3756164940538714250
+      BubbleHardenedDown_10: 1549927661693615757
+      BubbleHardenedDown_11: 5846664217009384033
+      BubbleHardenedDown_12: 3797877210133294027
+      BubbleHardenedDown_13: 349715345688631892
+      BubbleHardenedDown_14: -1546413829609728503
+      BubbleHardenedDown_15: -5118198791310710607
+      BubbleHardenedDown_16: 8849121638331738590
+      BubbleHardenedDown_17: 3831835890482696506
+      BubbleHardenedDown_18: -3322309343079267243
+      BubbleHardenedDown_19: 8694539205476247679
+      BubbleHardenedDown_2: -9154799845013372433
+      BubbleHardenedDown_20: 7266250494739715215
+      BubbleHardenedDown_21: 8615371765043422864
+      BubbleHardenedDown_22: -1187151325330690
+      BubbleHardenedDown_23: -7092506736185110607
+      BubbleHardenedDown_24: -6650004749514900516
+      BubbleHardenedDown_3: -6499718879452829267
+      BubbleHardenedDown_4: 5346120122958217583
+      BubbleHardenedDown_5: -5529347042088272789
+      BubbleHardenedDown_6: 762022915614272356
+      BubbleHardenedDown_7: 9119276008097919746
+      BubbleHardenedDown_8: 7533196967419378632
+      BubbleHardenedDown_9: -2881985152424743660
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

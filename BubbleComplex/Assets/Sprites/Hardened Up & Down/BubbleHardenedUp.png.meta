@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 1a4041a62e3db7941b7f8aeda151267c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7945721990846890914
+    second: BubbleHardenedUp_0
+  - first:
+      213: 2437001662579486113
+    second: BubbleHardenedUp_1
+  - first:
+      213: -2026248481257139599
+    second: BubbleHardenedUp_2
+  - first:
+      213: -4128700541590644707
+    second: BubbleHardenedUp_3
+  - first:
+      213: 8905697595364729577
+    second: BubbleHardenedUp_4
+  - first:
+      213: -8414496518427527037
+    second: BubbleHardenedUp_5
+  - first:
+      213: -3842950981350319010
+    second: BubbleHardenedUp_6
+  - first:
+      213: -2490585291558951495
+    second: BubbleHardenedUp_7
+  - first:
+      213: 883844027455274312
+    second: BubbleHardenedUp_8
+  - first:
+      213: -2701591198503609185
+    second: BubbleHardenedUp_9
+  - first:
+      213: 9104672375710572191
+    second: BubbleHardenedUp_10
+  - first:
+      213: -435225513649948304
+    second: BubbleHardenedUp_11
+  - first:
+      213: 5248031231401167805
+    second: BubbleHardenedUp_12
+  - first:
+      213: 2153136596112896761
+    second: BubbleHardenedUp_13
+  - first:
+      213: -8098765038698589173
+    second: BubbleHardenedUp_14
+  - first:
+      213: -7819834722305507074
+    second: BubbleHardenedUp_15
+  - first:
+      213: 2394401407822245674
+    second: BubbleHardenedUp_16
+  - first:
+      213: 3807083721498172032
+    second: BubbleHardenedUp_17
+  - first:
+      213: -6435141620644428147
+    second: BubbleHardenedUp_18
+  - first:
+      213: 1074330634117641429
+    second: BubbleHardenedUp_19
+  - first:
+      213: 9196081563810292414
+    second: BubbleHardenedUp_20
+  - first:
+      213: 189726700131797136
+    second: BubbleHardenedUp_21
+  - first:
+      213: -5943551805606607526
+    second: BubbleHardenedUp_22
+  - first:
+      213: 4316413152062511095
+    second: BubbleHardenedUp_23
+  - first:
+      213: 4746159450734871055
+    second: BubbleHardenedUp_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BubbleHardenedUp_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 878
+        width: 268
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cbf8392ff1bb190800000000000000
+      internalID: -7945721990846890914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 878
+        width: 269
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad261fa918f1d120800000000000000
+      internalID: 2437001662579486113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_2
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 878
+        width: 269
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1725ef7edb151e3e0800000000000000
+      internalID: -2026248481257139599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_3
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 878
+        width: 270
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18d6827bb8e3b6c0800000000000000
+      internalID: -4128700541590644707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_4
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 878
+        width: 270
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2e3c057c4679b70800000000000000
+      internalID: 8905697595364729577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_5
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 879
+        width: 271
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388bd579ff3b93b80800000000000000
+      internalID: -8414496518427527037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_6
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 881
+        width: 272
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c106b71781baac0800000000000000
+      internalID: -3842950981350319010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 617
+        width: 272
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5e0dd7fd9af6dd0800000000000000
+      internalID: -2490585291558951495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 618
+        width: 268
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d725dc57b044c00800000000000000
+      internalID: 883844027455274312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_9
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 619
+        width: 266
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cdedc5e15028ad0800000000000000
+      internalID: -2701591198503609185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_10
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 625
+        width: 264
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e5a8e794b4a5e70800000000000000
+      internalID: 9104672375710572191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_11
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 614
+        width: 259
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07935b583b4c5f9f0800000000000000
+      internalID: -435225513649948304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_12
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 597
+        width: 249
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb82d58990c4d840800000000000000
+      internalID: 5248031231401167805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_13
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 584
+        width: 235
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2f33c835a71ed10800000000000000
+      internalID: 2153136596112896761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 312
+        width: 224
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04940d3b186b9f80800000000000000
+      internalID: -8098765038698589173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_15
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 308
+        width: 217
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef007b650cd5a7390800000000000000
+      internalID: -7819834722305507074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 304
+        width: 211
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2fa0f2f46f9a3120800000000000000
+      internalID: 2394401407822245674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_17
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 297
+        width: 205
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a1212597a75d430800000000000000
+      internalID: 3807083721498172032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_18
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 291
+        width: 197
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8648267ac8c1b6a0800000000000000
+      internalID: -6435141620644428147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_19
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 284
+        width: 191
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4f6e9050ac8ee00800000000000000
+      internalID: 1074330634117641429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_20
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 279
+        width: 185
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb26e68957b0f9f70800000000000000
+      internalID: 9196081563810292414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8
+        width: 185
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09843c5bd6b02a200800000000000000
+      internalID: 189726700131797136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_22
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 4
+        width: 184
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55cfa28f13448da0800000000000000
+      internalID: -5943551805606607526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_23
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 3
+        width: 184
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7928874eaf6eb30800000000000000
+      internalID: 4316413152062511095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleHardenedUp_24
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 3
+        width: 187
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f024a6ccfdebdd140800000000000000
+      internalID: 4746159450734871055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BubbleHardenedUp_0: -7945721990846890914
+      BubbleHardenedUp_1: 2437001662579486113
+      BubbleHardenedUp_10: 9104672375710572191
+      BubbleHardenedUp_11: -435225513649948304
+      BubbleHardenedUp_12: 5248031231401167805
+      BubbleHardenedUp_13: 2153136596112896761
+      BubbleHardenedUp_14: -8098765038698589173
+      BubbleHardenedUp_15: -7819834722305507074
+      BubbleHardenedUp_16: 2394401407822245674
+      BubbleHardenedUp_17: 3807083721498172032
+      BubbleHardenedUp_18: -6435141620644428147
+      BubbleHardenedUp_19: 1074330634117641429
+      BubbleHardenedUp_2: -2026248481257139599
+      BubbleHardenedUp_20: 9196081563810292414
+      BubbleHardenedUp_21: 189726700131797136
+      BubbleHardenedUp_22: -5943551805606607526
+      BubbleHardenedUp_23: 4316413152062511095
+      BubbleHardenedUp_24: 4746159450734871055
+      BubbleHardenedUp_3: -4128700541590644707
+      BubbleHardenedUp_4: 8905697595364729577
+      BubbleHardenedUp_5: -8414496518427527037
+      BubbleHardenedUp_6: -3842950981350319010
+      BubbleHardenedUp_7: -2490585291558951495
+      BubbleHardenedUp_8: 883844027455274312
+      BubbleHardenedUp_9: -2701591198503609185
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
