@@ -27,7 +27,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.101047635, y: 0.101047635, z: 0.101047635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4685379661775337156}
@@ -74,9 +74,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -623651705
-  m_SortingLayer: 3
+  m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9046354607982460559, guid: 7c2168d31b940ee4993bf3109792e04b, type: 3}
+  m_Sprite: {fileID: -8533881771293836161, guid: 612b0cad1e6c056498b9cc7fc415f141, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -114,7 +114,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.482, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.094411716, y: 0.094411716, z: 0.094411716}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4685379661775337156}
@@ -161,9 +161,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 100810019
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2554529198421114306, guid: d39031717615dd0438db4d4b0b1b3c75, type: 3}
+  m_Sprite: {fileID: -5579462596729424089, guid: 9b77756d1b062f14895618504a286b54, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -370,6 +370,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnAbsorbedOther:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLeaveParent:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChildLeave:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBecomeIndividual:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &7716263668720419452
