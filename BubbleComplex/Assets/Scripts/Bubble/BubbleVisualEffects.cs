@@ -13,13 +13,18 @@ namespace Bubble
         [SerializeField]
         private Transform _visualTransform;
 
-        [Header("Config")]
+        [Header("Radius Config")]
 
         [SerializeField]
         private float _radiusSpringConstant;
 
         [SerializeField]
         private float _radiusSpringDamping;
+
+        [SerializeField]
+        private float _radiusMargin;
+
+        [Header("Position Config")]
 
         [SerializeField]
         private float _positionSpringConstant;
@@ -47,7 +52,8 @@ namespace Bubble
         private void Update()
         {
             // Radius spring
-            float deltaRadius = _targetRadius - _visualRadius;
+            float displayRadius = _targetRadius + (_targetRadius > 0 ? _radiusMargin : 0);
+            float deltaRadius = displayRadius - _visualRadius;
             float accel = deltaRadius * _radiusSpringConstant;
             accel -= _visualRadiusVelocity * _radiusSpringDamping;
 

@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 using Util;
@@ -76,12 +77,28 @@ namespace Bubble
             _realRadius = _individualRadius;
             _bubbleState = BubbleStates.Individual;
             _parentBubble = null;
+            _realPosition = IndividualPosition;
+
+            OnRadiusChanged?.Invoke(_realRadius);
+            OnPositionChanged?.Invoke(_realPosition);
         }
 
         private void Update()
         {
             _realTransform.position = _realPosition;
             TickBubble();
+        }
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(IndividualPosition, _realRadius);
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(IndividualPosition, _individualRadius);
+#if UNITY_EDITOR
+            Handles.Label(IndividualPosition + Vector2.up,
+                $"[{BubbleState}][{RealRadius}][{BubbleType}]");
+#endif
         }
 
         private void OnValidate()
@@ -183,6 +200,31 @@ namespace Bubble
             }
         }
 
+        /// <summary>
+        ///     Compare the priority of two bubbles
+        /// </summary>
+        /// <param name="bubble"></param>
+        /// <returns>true if greater priority than the parameter bubble, false if less</returns>
+        private bool ComparePriority(Bubble bubble)
+        {
+            if (bubble.BubbleType == BubbleType.Bad)
+            {
+                return false;
+            }
+
+            if (bubble._bubbleType == BubbleType.Player && _bubbleType == BubbleType.Friendly)
+            {
+                return false;
+            }
+
+            if (_bubbleType == BubbleType.Player && bubble._bubbleType == BubbleType.Friendly)
+            {
+                return true;
+            }
+
+            return _individualRadius > bubble.IndividualRadius;
+        }
+
         private void AbsorbBubble(Bubble bubble)
         {
             if (_bubbleState == BubbleStates.Child)
@@ -197,11 +239,13 @@ namespace Bubble
             {
                 child.BecomeChild(this);
                 _childBubbles.Add(this);
+                OnAbsorbedOther?.Invoke(child);
             }
 
             // Take them
             bubble.BecomeChild(this);
             _childBubbles.Add(bubble);
+            OnAbsorbedOther?.Invoke(bubble);
 
             // We are now a parent
             _bubbleState = BubbleStates.Parent;
@@ -212,6 +256,7 @@ namespace Bubble
         {
             _parentBubble = parentBubble;
             _bubbleState = BubbleStates.Child;
+            OnAbsorbedByOther?.Invoke(parentBubble);
             CalculateStatsAsChild();
         }
 
@@ -296,14 +341,6 @@ namespace Bubble
         {
             SetRadius(_individualRadius);
             SetPosition(IndividualPosition);
-        }
-
-        private void OnDrawGizmos()
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(_realPosition, _realRadius);
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(IndividualPosition, _individualRadius);
         }
     }
 }
