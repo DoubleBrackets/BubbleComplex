@@ -361,6 +361,7 @@ MonoBehaviour:
     m_Bits: 64
   _individualRadius: 1
   _bubbleType: 0
+  _childWeightRatio: 0.7
   _circleCollider2D: {fileID: 657257481079252960}
   _positionTracker: {fileID: 4028219902507544474}
   _realTransform: {fileID: 5543710968759435751}
@@ -379,6 +380,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnBecomeIndividual:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHardenedChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBumpIntoHardened:
+    m_PersistentCalls:
+      m_Calls: []
+  OnBumpedIntoWhenHardened:
     m_PersistentCalls:
       m_Calls: []
 --- !u!114 &7716263668720419452

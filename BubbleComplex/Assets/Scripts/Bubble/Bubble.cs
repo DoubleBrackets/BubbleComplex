@@ -34,6 +34,9 @@ namespace Bubble
         [SerializeField]
         private BubbleType _bubbleType;
 
+        [SerializeField]
+        private float _childWeightRatio;
+
         [Header("Depend")]
 
         [SerializeField]
@@ -346,13 +349,13 @@ namespace Bubble
 
             foreach (Bubble child in _childBubbles)
             {
-                totalRadius += child.IndividualRadius;
+                totalRadius += child.IndividualRadius * _childWeightRatio;
             }
 
             Vector2 weightedPosition = IndividualPosition * _individualRadius / totalRadius;
             foreach (Bubble child in _childBubbles)
             {
-                weightedPosition += child.IndividualPosition * child.IndividualRadius / totalRadius;
+                weightedPosition += child.IndividualPosition * child.IndividualRadius / totalRadius * _childWeightRatio;
             }
 
             SetRadius(totalRadius);

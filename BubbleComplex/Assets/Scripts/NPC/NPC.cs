@@ -114,7 +114,6 @@ namespace NPC
         private void OnDrawGizmos()
         {
             Gizmos.color = _tetherBehavior == TetherTypes.Friendly ? Color.yellow : Color.red;
-            Gizmos.DrawWireSphere(_body.position, _wanderRadius);
 
 #if UNITY_EDITOR
             Handles.Label(_body.position + Vector3.right, _state.ToString());
@@ -123,6 +122,11 @@ namespace NPC
             if (Application.isPlaying)
             {
                 Gizmos.DrawLine(_body.position, _targetPosition);
+                Gizmos.DrawWireSphere(_wanderCenter, _wanderRadius);
+            }
+            else
+            {
+                Gizmos.DrawWireSphere(_body.position, _wanderRadius);
             }
         }
 
@@ -157,7 +161,6 @@ namespace NPC
 
         private void OnAbsorbedByOther(Bubble.Bubble other)
         {
-            Debug.Log("ASDF");
             if (other.BubbleType == BubbleType.Player)
             {
                 _state = State.TetheredToPlayer;
@@ -208,11 +211,11 @@ namespace NPC
                 Vector2 direction = _targetPosition - (Vector2)_body.position;
                 if (direction.magnitude > _followDistance)
                 {
-                    _simpleMovement.Move(_followMovementConfig, direction, Time.deltaTime);
+                    _simpleMovement.Move(_tetheredMovementConfig, direction, Time.deltaTime);
                 }
                 else
                 {
-                    _simpleMovement.StandStill(_followMovementConfig, Time.deltaTime);
+                    _simpleMovement.StandStill(_tetheredMovementConfig, Time.deltaTime);
                 }
             }
             else
