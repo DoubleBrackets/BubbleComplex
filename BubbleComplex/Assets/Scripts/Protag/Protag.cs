@@ -1,30 +1,32 @@
+using Global;
 using UnityEngine;
+using Util;
 
-namespace Player
+namespace Protag
 {
-    public class ProtagMovement : MonoBehaviour
+    public class Protag : MonoBehaviour
     {
         public enum MovementState
         {
             Normal,
-            Action
+            Harden
         }
 
         [Header("Stats")]
 
         [SerializeField]
-        private float _speed;
-
-        [SerializeField]
-        private float _acceleration;
+        private MovementConfig _movementConfig;
 
         [Header("Depends")]
 
         [SerializeField]
-        private Rigidbody2D _rigidbody2D;
+        private SimpleMovement _simpleMovement;
 
         [SerializeField]
         private Animator _animator;
+
+        [SerializeField]
+        private GlobalState _globalState;
 
         private MovementState _movementState;
 
@@ -37,18 +39,10 @@ namespace Player
 
             if (_movementState == MovementState.Normal)
             {
-                SimpleMovement();
+                _simpleMovement.Move(_movementConfig, _horizontalMovement, Time.deltaTime);
             }
-        }
 
-        private void SimpleMovement()
-        {
-            Vector2 currentVelocity = _rigidbody2D.linearVelocity;
-            Vector2 targetVelocity = _horizontalMovement.normalized * _speed;
-
-            Vector2 newVelocity = Vector2.Lerp(currentVelocity, targetVelocity, _acceleration * Time.deltaTime);
-
-            _rigidbody2D.linearVelocity = newVelocity;
+            _globalState.PlayerPos = _simpleMovement.Rb.position;
         }
 
         private void GetInput()

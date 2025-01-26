@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{99ebdc71-36df-4293-9e7a-1dead637e8f8}">
+		<property name="name">
+			<value>crown cheer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f9c44023-79c9-45ca-9209-726e49f32762}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c0ce842e-0133-481b-8b42-ae81c7b184a7}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c0ce842e-0133-481b-8b42-ae81c7b184a7}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
