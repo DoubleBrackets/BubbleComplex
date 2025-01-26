@@ -55,6 +55,9 @@ namespace Bubble
 
         public UnityEvent<Bubble> OnAbsorbedByOther;
         public UnityEvent<Bubble> OnAbsorbedOther;
+        public UnityEvent<Bubble> OnLeaveParent;
+        public UnityEvent<Bubble> OnChildLeave;
+        public UnityEvent OnBecomeIndividual;
 
         public BubbleType BubbleType => _bubbleType;
         public float RealRadius => _realRadius;
@@ -268,6 +271,9 @@ namespace Bubble
             _parentBubble = null;
             _bubbleState = BubbleStates.Individual;
             CalculateStatsAsIndividual();
+
+            OnLeaveParent?.Invoke(this);
+            OnBecomeIndividual?.Invoke();
         }
 
         private void RemoveChild(Bubble childBubble)
@@ -278,11 +284,14 @@ namespace Bubble
             {
                 _bubbleState = BubbleStates.Individual;
                 CalculateStatsAsIndividual();
+                OnBecomeIndividual?.Invoke();
             }
             else
             {
                 CalculateStatsAsParent();
             }
+
+            OnChildLeave?.Invoke(childBubble);
         }
 
         private void TickChild()
