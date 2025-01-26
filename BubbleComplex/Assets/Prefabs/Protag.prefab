@@ -263,8 +263,10 @@ MonoBehaviour:
   _movementConfig:
     Speed: 5
     Acceleration: 12
+  _minimumHardenTime: 0
   _simpleMovement: {fileID: 1020531259431652579}
   _animator: {fileID: 0}
+  _bubble: {fileID: 6162048346732365976}
   _globalState: {fileID: 11400000, guid: 76a31b8980c277442a7a474929ed852c, type: 2}
 --- !u!114 &1020531259431652579
 MonoBehaviour:
@@ -604,6 +606,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+--- !u!114 &6162048346732365976 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 518333604289352002, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+  m_PrefabInstance: {fileID: 5958970360238217690}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ed772df75aee44aafa8fba544261fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7301917540338005568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4028219902507544474, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}

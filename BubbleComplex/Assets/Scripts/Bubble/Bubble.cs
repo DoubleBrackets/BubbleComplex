@@ -11,7 +11,7 @@ namespace Bubble
     {
         Player,
         Friendly,
-        Bad
+        Negative
     }
 
     public class Bubble : NoteMonoBehavior
@@ -58,10 +58,23 @@ namespace Bubble
         public UnityEvent<Bubble> OnLeaveParent;
         public UnityEvent<Bubble> OnChildLeave;
         public UnityEvent OnBecomeIndividual;
+        public UnityEvent<bool> OnHardenedChanged;
+
+        /// <summary>
+        ///     Invoked when this bubble bumps into a hardened bubble
+        /// </summary>
+        public UnityEvent<Bubble> OnBumpIntoHardened;
+
+        /// <summary>
+        ///     Invoked when another bubble bumps into this bubble when it is hardened
+        /// </summary>
+        public UnityEvent<Bubble> OnBumpedIntoWhenHardened;
 
         public BubbleType BubbleType => _bubbleType;
         public float RealRadius => _realRadius;
         public BubbleStates BubbleState => _bubbleState;
+
+        public bool Hardened => _hardened;
 
         public float IndividualRadius => _individualRadius;
         public Vector2 RealPosition => _realPosition;
@@ -70,6 +83,8 @@ namespace Bubble
         public event Action<Vector2> OnPositionChanged;
 
         private readonly HashSet<Bubble> _childBubbles = new();
+
+        private bool _hardened;
 
         // The target position and radius
         private float _realRadius;
@@ -100,7 +115,7 @@ namespace Bubble
             Gizmos.DrawWireSphere(IndividualPosition, _individualRadius);
 #if UNITY_EDITOR
             Handles.Label(IndividualPosition + Vector2.up,
-                $"[{BubbleState}][{RealRadius}][{BubbleType}]");
+                $"[{BubbleState}][{RealRadius}][{BubbleType}][{_hardened}]");
 #endif
         }
 
@@ -173,7 +188,8 @@ namespace Bubble
             {
                 var entity = coll.GetComponentInParent<Bubble>();
 
-                if (entity != null && entity != this)
+                bool valid = entity != null && entity != this;
+                if (valid && !_childBubbles.Contains(entity))
                 {
                     overlappingBubbles.Add(entity);
                 }
@@ -182,23 +198,30 @@ namespace Bubble
             foreach (Bubble bubble in overlappingBubbles)
             {
                 // For simplicity, only the parent bubble has a valid collider
-                if (bubble.BubbleState == BubbleStates.Child)
+                if (bubble.BubbleState == BubbleStates.Child || _hardened)
                 {
+                    continue;
+                }
+
+                if (bubble.Hardened)
+                {
+                    OnBumpIntoHardened?.Invoke(bubble);
+                    bubble.BumpedIntoWhenHardened(this);
                     continue;
                 }
 
                 float theirRadius = bubble.IndividualRadius;
                 float ourRadius = _individualRadius;
 
-                if (theirRadius > ourRadius)
-                {
-                    // We become a child
-                    bubble.AbsorbBubble(this);
-                }
-                else
+                if (ComparePriority(bubble))
                 {
                     // We are the one to absorb
                     AbsorbBubble(bubble);
+                }
+                else
+                {
+                    // We become a child
+                    bubble.AbsorbBubble(this);
                 }
             }
         }
@@ -210,11 +233,13 @@ namespace Bubble
         /// <returns>true if greater priority than the parameter bubble, false if less</returns>
         private bool ComparePriority(Bubble bubble)
         {
-            if (bubble.BubbleType == BubbleType.Bad)
+            // We always are absorbed by negative bubbles
+            if (bubble.BubbleType == BubbleType.Negative)
             {
                 return false;
             }
 
+            // Players always absorb friendlies
             if (bubble._bubbleType == BubbleType.Player && _bubbleType == BubbleType.Friendly)
             {
                 return false;
@@ -259,8 +284,8 @@ namespace Bubble
         {
             _parentBubble = parentBubble;
             _bubbleState = BubbleStates.Child;
-            OnAbsorbedByOther?.Invoke(parentBubble);
             CalculateStatsAsChild();
+            OnAbsorbedByOther?.Invoke(parentBubble);
         }
 
         private void SeparateFromParent()
@@ -350,6 +375,22 @@ namespace Bubble
         {
             SetRadius(_individualRadius);
             SetPosition(IndividualPosition);
+        }
+
+        public void SetHardened(bool hardened)
+        {
+            if (_hardened == hardened)
+            {
+                return;
+            }
+
+            _hardened = hardened;
+            OnHardenedChanged?.Invoke(_hardened);
+        }
+
+        public void BumpedIntoWhenHardened(Bubble bubble)
+        {
+            OnBumpedIntoWhenHardened?.Invoke(bubble);
         }
     }
 }

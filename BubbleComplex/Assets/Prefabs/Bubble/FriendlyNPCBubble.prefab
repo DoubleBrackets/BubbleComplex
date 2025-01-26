@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: _bubbleType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 518333604289352002, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: _individualRadius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 657257481079252960, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4028219902507544474, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.97
@@ -54,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4723450768595696674, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: m_Name
-      value: FriendlyNPCBubble Variant
+      value: FriendlyNPCBubble
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

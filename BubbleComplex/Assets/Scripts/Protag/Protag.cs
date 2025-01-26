@@ -17,6 +17,9 @@ namespace Protag
         [SerializeField]
         private MovementConfig _movementConfig;
 
+        [SerializeField]
+        private float _minimumHardenTime;
+
         [Header("Depends")]
 
         [SerializeField]
@@ -26,12 +29,17 @@ namespace Protag
         private Animator _animator;
 
         [SerializeField]
+        private Bubble.Bubble _bubble;
+
+        [SerializeField]
         private GlobalState _globalState;
 
         private MovementState _movementState;
 
         private Vector2 _horizontalMovement;
         private bool _isInteracting;
+
+        private float _hardenTime;
 
         private void Update()
         {
@@ -40,6 +48,11 @@ namespace Protag
             if (_movementState == MovementState.Normal)
             {
                 _simpleMovement.Move(_movementConfig, _horizontalMovement, Time.deltaTime);
+            }
+            else if (_movementState == MovementState.Harden)
+            {
+                _simpleMovement.StandStill(_movementConfig, Time.deltaTime);
+                _hardenTime += Time.deltaTime;
             }
 
             _globalState.PlayerPos = _simpleMovement.Rb.position;
@@ -50,7 +63,36 @@ namespace Protag
             _horizontalMovement = new Vector2(
                 Input.GetAxisRaw("Horizontal"),
                 Input.GetAxisRaw("Vertical"));
-            _isInteracting = Input.GetKeyDown(KeyCode.Space);
+            _isInteracting = Input.GetKey(KeyCode.Space);
+
+            if (_movementState == MovementState.Normal)
+            {
+                if (_isInteracting)
+                {
+                    EnterHarden();
+                }
+            }
+
+            if (_movementState == MovementState.Harden && !Input.GetKey(KeyCode.Space))
+            {
+                if (!_isInteracting && _hardenTime >= _minimumHardenTime)
+                {
+                    ExitHarden();
+                }
+            }
+        }
+
+        private void EnterHarden()
+        {
+            _hardenTime = 0;
+            _movementState = MovementState.Harden;
+            _bubble.SetHardened(true);
+        }
+
+        private void ExitHarden()
+        {
+            _movementState = MovementState.Normal;
+            _bubble.SetHardened(false);
         }
     }
 }
