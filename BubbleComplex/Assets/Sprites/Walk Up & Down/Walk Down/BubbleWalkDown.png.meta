@@ -1,0 +1,880 @@
+fileFormatVersion: 2
+guid: 642e4cd3f3e0f9f47b3df7fbfac00161
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8377702691590238883
+    second: BubbleWalkDown_0
+  - first:
+      213: 8474091677180706203
+    second: BubbleWalkDown_1
+  - first:
+      213: 8967083569460987001
+    second: BubbleWalkDown_2
+  - first:
+      213: 8787266086937294111
+    second: BubbleWalkDown_3
+  - first:
+      213: -5040668084886349526
+    second: BubbleWalkDown_4
+  - first:
+      213: 2127112156449065865
+    second: BubbleWalkDown_5
+  - first:
+      213: 6703892788591211600
+    second: BubbleWalkDown_6
+  - first:
+      213: -157620926761550260
+    second: BubbleWalkDown_7
+  - first:
+      213: 7137833220747426900
+    second: BubbleWalkDown_8
+  - first:
+      213: -2925362226454993216
+    second: BubbleWalkDown_9
+  - first:
+      213: -4139479779699906816
+    second: BubbleWalkDown_10
+  - first:
+      213: -855570912637503743
+    second: BubbleWalkDown_11
+  - first:
+      213: -2182024288107622801
+    second: BubbleWalkDown_12
+  - first:
+      213: 1012930709899997801
+    second: BubbleWalkDown_13
+  - first:
+      213: -2247795656725209345
+    second: BubbleWalkDown_14
+  - first:
+      213: 5515155246336835
+    second: BubbleWalkDown_15
+  - first:
+      213: 3514841928105283340
+    second: BubbleWalkDown_16
+  - first:
+      213: 4553499187697812788
+    second: BubbleWalkDown_17
+  - first:
+      213: -6642807506769379955
+    second: BubbleWalkDown_18
+  - first:
+      213: -1556727348617979180
+    second: BubbleWalkDown_19
+  - first:
+      213: 8688177298132680056
+    second: BubbleWalkDown_20
+  - first:
+      213: 8080017086770810406
+    second: BubbleWalkDown_21
+  - first:
+      213: 761528688214782887
+    second: BubbleWalkDown_22
+  - first:
+      213: -3954391049283765516
+    second: BubbleWalkDown_23
+  - first:
+      213: -9147080481259390103
+    second: BubbleWalkDown_24
+  - first:
+      213: -7028087494162836768
+    second: BubbleWalkDown_25
+  - first:
+      213: 5852812125097577123
+    second: BubbleWalkDown_26
+  - first:
+      213: -3691709011605037665
+    second: BubbleWalkDown_27
+  - first:
+      213: -7307397730164981088
+    second: BubbleWalkDown_28
+  - first:
+      213: -7122440435395960276
+    second: BubbleWalkDown_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BubbleWalkDown_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 557
+        width: 199
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2f1160634934470800000000000000
+      internalID: 8377702691590238883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_1
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 556
+        width: 195
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d33749b750a9570800000000000000
+      internalID: 8474091677180706203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_2
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 554
+        width: 187
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974c6fc2ffa717c70800000000000000
+      internalID: 8967083569460987001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_3
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 552
+        width: 186
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15fbbaf2f3a2f970800000000000000
+      internalID: 8787266086937294111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_4
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 552
+        width: 186
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2953b95513fb0ab0800000000000000
+      internalID: -5040668084886349526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_5
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 552
+        width: 188
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bcf828c35058d10800000000000000
+      internalID: 2127112156449065865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_6
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 556
+        width: 191
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0543844f8f2090d50800000000000000
+      internalID: 6703892788591211600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_7
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 559
+        width: 194
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4eb53b2a9400ddf0800000000000000
+      internalID: -157620926761550260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_8
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 562
+        width: 197
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cf1a41f7dae0360800000000000000
+      internalID: 7137833220747426900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_9
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 566
+        width: 199
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c6edc4ed860767d0800000000000000
+      internalID: -2925362226454993216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 300
+        width: 202
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0072310821d9d86c0800000000000000
+      internalID: -4139479779699906816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_11
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 303
+        width: 204
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107b518b9c66024f0800000000000000
+      internalID: -855570912637503743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_12
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 301
+        width: 203
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e02188874e7b1e0800000000000000
+      internalID: -2182024288107622801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_13
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 296
+        width: 203
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9627ca92d17ae0e00800000000000000
+      internalID: 1012930709899997801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_14
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 294
+        width: 200
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe5a3172c93ec0e0800000000000000
+      internalID: -2247795656725209345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_15
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 293
+        width: 196
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bc6552108931000800000000000000
+      internalID: 5515155246336835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_16
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 291
+        width: 190
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f4d567c1a37c030800000000000000
+      internalID: 3514841928105283340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_17
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 288
+        width: 186
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43502cfb267413f30800000000000000
+      internalID: 4553499187697812788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_18
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 283
+        width: 187
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d76b784c100d3a0800000000000000
+      internalID: -6642807506769379955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_19
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 279
+        width: 186
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da5d7d69b4656ae0800000000000000
+      internalID: -1556727348617979180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 7
+        width: 186
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dbfc0883b929870800000000000000
+      internalID: 8688177298132680056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4
+        width: 186
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e8f0c0bbcf12070800000000000000
+      internalID: 8080017086770810406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_22
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 4
+        width: 186
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3bf43ae4e719a00800000000000000
+      internalID: 761528688214782887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_23
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 5
+        width: 186
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faf47cba4e2f19c0800000000000000
+      internalID: -3954391049283765516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_24
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 9
+        width: 189
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bff9ef3ca0f0180800000000000000
+      internalID: -9147080481259390103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_25
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 12
+        width: 193
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e21f0419a7377e90800000000000000
+      internalID: -7028087494162836768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_26
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 15
+        width: 197
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa4a854e9d593150800000000000000
+      internalID: 5852812125097577123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_27
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 19
+        width: 199
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d5c25a63a64ccc0800000000000000
+      internalID: -3691709011605037665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_28
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 20
+        width: 200
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2450d0b78e69a90800000000000000
+      internalID: -7307397730164981088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkDown_29
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 19
+        width: 199
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22685a0922082d90800000000000000
+      internalID: -7122440435395960276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
