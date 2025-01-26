@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{377fd5d8-48a2-4e60-937f-3d462f38759b}">
+		<property name="assetPath">
+			<value>Waltz.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>108.336</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9ab35ede-8f9b-49ed-81b6-7badc882a61d}</destination>
+		</relationship>
+	</object>
+</objects>
