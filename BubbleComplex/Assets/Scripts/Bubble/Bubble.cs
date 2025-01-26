@@ -117,8 +117,8 @@ namespace Bubble
             Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(IndividualPosition, _individualRadius);
 #if UNITY_EDITOR
-            Handles.Label(IndividualPosition + Vector2.up,
-                $"[{BubbleState}][{RealRadius}][{BubbleType}][{_hardened}]");
+            Handles.Label(IndividualPosition + Vector2.up * 3f,
+                $"[{BubbleState}][{BubbleType}][{_childBubbles.Count}]");
 #endif
         }
 
@@ -174,6 +174,7 @@ namespace Bubble
 
         private void TickParent()
         {
+            TryMerge();
             CalculateStatsAsParent();
         }
 
@@ -184,6 +185,11 @@ namespace Bubble
         {
             CalculateStatsAsIndividual();
 
+            TryMerge();
+        }
+
+        private void TryMerge()
+        {
             Collider2D[] colls = Physics2D.OverlapCircleAll(_realPosition, _realRadius, _bubbleLayerMask);
             List<Bubble> overlappingBubbles = new();
 
@@ -221,11 +227,6 @@ namespace Bubble
                     // We are the one to absorb
                     AbsorbBubble(bubble);
                 }
-                else
-                {
-                    // We become a child
-                    bubble.AbsorbBubble(this);
-                }
             }
         }
 
@@ -242,6 +243,11 @@ namespace Bubble
                 return false;
             }
 
+            if (_bubbleType == BubbleType.Negative)
+            {
+                return true;
+            }
+
             // Players always absorb friendlies
             if (bubble._bubbleType == BubbleType.Player && _bubbleType == BubbleType.Friendly)
             {
@@ -253,7 +259,7 @@ namespace Bubble
                 return true;
             }
 
-            return _individualRadius > bubble.IndividualRadius;
+            return _individualRadius >= bubble.IndividualRadius;
         }
 
         private void AbsorbBubble(Bubble bubble)
@@ -268,8 +274,8 @@ namespace Bubble
             // Steal their children
             foreach (Bubble child in bubble._childBubbles)
             {
+                Debug.Log($"{name} STEALS CHILD {child.name}");
                 child.BecomeChild(this);
-                _childBubbles.Add(this);
                 OnAbsorbedOther?.Invoke(child);
             }
 
@@ -289,6 +295,7 @@ namespace Bubble
             _bubbleState = BubbleStates.Child;
             CalculateStatsAsChild();
             OnAbsorbedByOther?.Invoke(parentBubble);
+            _childBubbles.Clear();
         }
 
         private void SeparateFromParent()
@@ -306,7 +313,13 @@ namespace Bubble
 
         private void RemoveChild(Bubble childBubble)
         {
+            Debug.Log($"{name} REMOVES CHILD {childBubble.name}");
+
             _childBubbles.Remove(childBubble);
+            foreach (Bubble child in _childBubbles)
+            {
+                Debug.Log($"{name} HAS CHILD {child.name}");
+            }
 
             if (_childBubbles.Count == 0)
             {

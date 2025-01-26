@@ -78,6 +78,7 @@ namespace NPC
         {
             _bubble.OnBecomeIndividual.AddListener(OnBecomeIndividual);
             _bubble.OnAbsorbedByOther.AddListener(OnAbsorbedByOther);
+            _bubble.OnAbsorbedOther.AddListener(OnAbsorbOther);
             _bubble.OnBumpIntoHardened.AddListener(OnBumpIntoHardened);
         }
 
@@ -108,6 +109,7 @@ namespace NPC
         {
             _bubble.OnAbsorbedByOther.RemoveListener(OnAbsorbedByOther);
             _bubble.OnBecomeIndividual.RemoveListener(OnBecomeIndividual);
+            _bubble.OnAbsorbedOther.RemoveListener(OnAbsorbOther);
             _bubble.OnBumpIntoHardened.RemoveListener(OnBumpIntoHardened);
         }
 
@@ -162,6 +164,14 @@ namespace NPC
         private void OnAbsorbedByOther(Bubble.Bubble other)
         {
             if (other.BubbleType == BubbleType.Player)
+            {
+                _state = State.TetheredToPlayer;
+            }
+        }
+
+        private void OnAbsorbOther(Bubble.Bubble other)
+        {
+            if (other.BubbleType == BubbleType.Player && _tetherBehavior == TetherTypes.Negative)
             {
                 _state = State.TetheredToPlayer;
             }

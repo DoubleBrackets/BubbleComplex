@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using Util;
 
 namespace Bubble
@@ -24,6 +25,9 @@ namespace Bubble
         [SerializeField]
         private float _radiusMargin;
 
+        [SerializeField]
+        private float _radiusBump;
+
         [Header("Position Config")]
 
         [SerializeField]
@@ -34,6 +38,17 @@ namespace Bubble
 
         [SerializeField]
         private float _speedScale;
+
+        [SerializeField]
+        private float _positionBump;
+
+        [Header("Events")]
+
+        [SerializeField]
+        private UnityEvent OnHarden;
+
+        [SerializeField]
+        private UnityEvent OnUnHarden;
 
         private Vector2 _targetPosition;
         private Vector2 _visualPositionVelocity;
@@ -47,6 +62,9 @@ namespace Bubble
         {
             _bubble.OnRadiusChanged += OnRadiusChanged;
             _bubble.OnPositionChanged += OnPositionChanged;
+            _bubble.OnHardenedChanged.AddListener(OnHardenedChanged);
+            _bubble.OnBumpIntoHardened.AddListener(OnBumpIntoHardened);
+            _bubble.OnBumpedIntoWhenHardened.AddListener(OnBumpedIntoWhenHardened);
         }
 
         private void Update()
@@ -76,6 +94,33 @@ namespace Bubble
         {
             _bubble.OnRadiusChanged -= OnRadiusChanged;
             _bubble.OnPositionChanged -= OnPositionChanged;
+            _bubble.OnHardenedChanged.AddListener(OnHardenedChanged);
+            _bubble.OnBumpIntoHardened.RemoveListener(OnBumpIntoHardened);
+            _bubble.OnBumpedIntoWhenHardened.RemoveListener(OnBumpedIntoWhenHardened);
+        }
+
+        private void OnBumpedIntoWhenHardened(Bubble arg0)
+        {
+            _visualRadiusVelocity += _radiusBump;
+        }
+
+        private void OnBumpIntoHardened(Bubble hardenedBubble)
+        {
+            _visualRadiusVelocity -= _radiusBump;
+            Vector2 dirAway = (_visualPosition - hardenedBubble.RealPosition).normalized;
+            _visualPositionVelocity += dirAway * _positionBump;
+        }
+
+        private void OnHardenedChanged(bool hardened)
+        {
+            if (hardened)
+            {
+                OnHarden.Invoke();
+            }
+            else
+            {
+                OnUnHarden.Invoke();
+            }
         }
 
         private void OnRadiusChanged(float radius)
