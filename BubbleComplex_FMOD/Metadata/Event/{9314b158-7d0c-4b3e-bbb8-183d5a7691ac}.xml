@@ -106,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f5e975ed-5569-475f-85dd-ad0b81c2b984}">
+		<property name="volume">
+			<value>0.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -176,15 +179,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{ce88fcef-c87d-4912-92ed-88bce3181875}" />
 	<object class="MixerBusFader" id="{f421e9c1-fa3c-4c66-9ac1-490b5739926c}" />
-	<object class="SpatialiserEffect" id="{41f32578-877e-4dbb-8fb0-8c2fb43355e3}" />
+	<object class="SpatialiserEffect" id="{41f32578-877e-4dbb-8fb0-8c2fb43355e3}">
+		<property name="panBlend">
+			<value>0.5</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{d091fac2-6f1a-43c1-9030-42725fc3b527}" />
 	<object class="MixerBusFader" id="{7f179753-6a7d-4a03-bf12-3d04acccc86b}" />
 	<object class="ThreeEQEffect" id="{637937ad-6d19-4917-81d3-0b8b0be7b62d}">
 		<property name="lowGain">
-			<value>-5.5</value>
+			<value>-9.5</value>
 		</property>
 		<property name="midGain">
-			<value>-13</value>
+			<value>-16</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{ad9e202e-6f37-4e79-965a-ac41a255aa96}" />

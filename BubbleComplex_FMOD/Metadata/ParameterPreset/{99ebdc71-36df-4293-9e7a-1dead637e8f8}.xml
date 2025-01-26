@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{99ebdc71-36df-4293-9e7a-1dead637e8f8}">
 		<property name="name">
-			<value>crown cheer</value>
+			<value>NegativeVoid</value>
 		</property>
 		<relationship name="folder">
 			<destination>{f9c44023-79c9-45ca-9209-726e49f32762}</destination>

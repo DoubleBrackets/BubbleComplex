@@ -171,7 +171,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{7badee04-1c15-4495-bd2a-3f018a60180a}" />
 	<object class="MixerBusFader" id="{1a849369-d47b-4109-99e6-30d2562d775e}" />
-	<object class="SpatialiserEffect" id="{74e3f58a-e1b4-4531-89d5-77049c935836}" />
+	<object class="SpatialiserEffect" id="{74e3f58a-e1b4-4531-89d5-77049c935836}">
+		<property name="panBlend">
+			<value>0.48999998</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{21f92b53-d734-4bb1-9634-08a80caebfce}">
 		<property name="wetLevel">
 			<value>-13.5</value>
