@@ -872,7 +872,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BubbleWalkStraight_0: -757494379875924865
+      BubbleWalkStraight_1: 7581047833128985806
+      BubbleWalkStraight_10: 104072266136246668
+      BubbleWalkStraight_11: -6600634585705010864
+      BubbleWalkStraight_12: -6169518621650929361
+      BubbleWalkStraight_13: -1297959478118258431
+      BubbleWalkStraight_14: 4573653047879984002
+      BubbleWalkStraight_15: -727313487037343321
+      BubbleWalkStraight_16: -559662163729049508
+      BubbleWalkStraight_17: 629749864260364680
+      BubbleWalkStraight_18: -7072825531234935645
+      BubbleWalkStraight_19: 8375660919600776909
+      BubbleWalkStraight_2: -2453168265991190271
+      BubbleWalkStraight_20: 2082411771782500121
+      BubbleWalkStraight_21: -4851360669134810025
+      BubbleWalkStraight_22: -7831470673495521691
+      BubbleWalkStraight_23: -7505408929175446012
+      BubbleWalkStraight_24: 4088541944973830083
+      BubbleWalkStraight_25: -1790388231621490399
+      BubbleWalkStraight_26: 559037327568585790
+      BubbleWalkStraight_27: -8376315967229410728
+      BubbleWalkStraight_28: -6567945053042731411
+      BubbleWalkStraight_29: -3945218456802031958
+      BubbleWalkStraight_3: 125925756061769261
+      BubbleWalkStraight_4: 4606001374499675490
+      BubbleWalkStraight_5: 7884790166245918501
+      BubbleWalkStraight_6: 5049695629557010032
+      BubbleWalkStraight_7: -8519748756936927332
+      BubbleWalkStraight_8: -5622223756903331628
+      BubbleWalkStraight_9: 8805930862130280167
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

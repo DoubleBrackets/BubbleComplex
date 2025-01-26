@@ -747,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BubbleHardenedDown_0: 6240735932145822421
+      BubbleHardenedDown_1: 3756164940538714250
+      BubbleHardenedDown_10: 1549927661693615757
+      BubbleHardenedDown_11: 5846664217009384033
+      BubbleHardenedDown_12: 3797877210133294027
+      BubbleHardenedDown_13: 349715345688631892
+      BubbleHardenedDown_14: -1546413829609728503
+      BubbleHardenedDown_15: -5118198791310710607
+      BubbleHardenedDown_16: 8849121638331738590
+      BubbleHardenedDown_17: 3831835890482696506
+      BubbleHardenedDown_18: -3322309343079267243
+      BubbleHardenedDown_19: 8694539205476247679
+      BubbleHardenedDown_2: -9154799845013372433
+      BubbleHardenedDown_20: 7266250494739715215
+      BubbleHardenedDown_21: 8615371765043422864
+      BubbleHardenedDown_22: -1187151325330690
+      BubbleHardenedDown_23: -7092506736185110607
+      BubbleHardenedDown_24: -6650004749514900516
+      BubbleHardenedDown_3: -6499718879452829267
+      BubbleHardenedDown_4: 5346120122958217583
+      BubbleHardenedDown_5: -5529347042088272789
+      BubbleHardenedDown_6: 762022915614272356
+      BubbleHardenedDown_7: 9119276008097919746
+      BubbleHardenedDown_8: 7533196967419378632
+      BubbleHardenedDown_9: -2881985152424743660
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

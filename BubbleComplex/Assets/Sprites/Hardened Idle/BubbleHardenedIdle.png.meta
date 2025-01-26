@@ -947,7 +947,40 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BubbleHardenedIdle_0: -8207655411348377429
+      BubbleHardenedIdle_1: 3064518372440703578
+      BubbleHardenedIdle_10: 7277453212198251036
+      BubbleHardenedIdle_11: -8472952483452606242
+      BubbleHardenedIdle_12: 5185961830341483221
+      BubbleHardenedIdle_13: -6230222224202728607
+      BubbleHardenedIdle_14: -6047497380640033415
+      BubbleHardenedIdle_15: 5909722266273999461
+      BubbleHardenedIdle_16: -6682438135178104241
+      BubbleHardenedIdle_17: -1264023443788437900
+      BubbleHardenedIdle_18: 3577789204940212107
+      BubbleHardenedIdle_19: 1318199636452775571
+      BubbleHardenedIdle_2: 8034432428522520975
+      BubbleHardenedIdle_20: 7303870344688421933
+      BubbleHardenedIdle_21: -5040657702659679199
+      BubbleHardenedIdle_22: -9205319257239784263
+      BubbleHardenedIdle_23: -2419666592404254120
+      BubbleHardenedIdle_24: 1781266866742060270
+      BubbleHardenedIdle_25: -5994897484223077824
+      BubbleHardenedIdle_26: -808890724907350188
+      BubbleHardenedIdle_27: 7143981083319525757
+      BubbleHardenedIdle_28: 5323021299278262669
+      BubbleHardenedIdle_29: -3814219213232071636
+      BubbleHardenedIdle_3: 55544903044143773
+      BubbleHardenedIdle_30: 8953082338717964569
+      BubbleHardenedIdle_31: -7779741384753584293
+      BubbleHardenedIdle_32: 5889951370520769057
+      BubbleHardenedIdle_4: -3067300547865980658
+      BubbleHardenedIdle_5: -7437117050241573112
+      BubbleHardenedIdle_6: -5742933430632778630
+      BubbleHardenedIdle_7: -4672169931727138658
+      BubbleHardenedIdle_8: -8080988681334868136
+      BubbleHardenedIdle_9: -6736426804059984821
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

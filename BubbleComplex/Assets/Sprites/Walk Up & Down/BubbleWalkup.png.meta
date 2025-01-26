@@ -872,7 +872,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BubbleWalkup_0: -3467058965430773808
+      BubbleWalkup_1: 5023921061489484643
+      BubbleWalkup_10: -1055730233171432782
+      BubbleWalkup_11: -7284650289936893387
+      BubbleWalkup_12: 153604939379560148
+      BubbleWalkup_13: -8933070976076146499
+      BubbleWalkup_14: 4371011682184096679
+      BubbleWalkup_15: -5400681524071119901
+      BubbleWalkup_16: -6329454599566794171
+      BubbleWalkup_17: 7261464159944043024
+      BubbleWalkup_18: 2946754672995944989
+      BubbleWalkup_19: 5300444172649852711
+      BubbleWalkup_2: 5115996024420850837
+      BubbleWalkup_20: -3160420134256466739
+      BubbleWalkup_21: 5756278296753112162
+      BubbleWalkup_22: 391721089946491230
+      BubbleWalkup_23: -470319635903774996
+      BubbleWalkup_24: -2627146988016783794
+      BubbleWalkup_25: 6847732860697640200
+      BubbleWalkup_26: -5008895005323540583
+      BubbleWalkup_27: 5742723550212036193
+      BubbleWalkup_28: 8973245131385850302
+      BubbleWalkup_29: 5805340004585545545
+      BubbleWalkup_3: -5520944772002988600
+      BubbleWalkup_4: 7230624666743964016
+      BubbleWalkup_5: -8100629116056436365
+      BubbleWalkup_6: -8755173956973552919
+      BubbleWalkup_7: -1665227236412414730
+      BubbleWalkup_8: 7365207780587229913
+      BubbleWalkup_9: -7094810647273318617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

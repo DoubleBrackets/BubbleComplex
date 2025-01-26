@@ -1122,7 +1122,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BubbleSlowed_0: -2987222534401602411
+      BubbleSlowed_1: 1505956901788777683
+      BubbleSlowed_10: 8553507355763511842
+      BubbleSlowed_11: -1060798727800602449
+      BubbleSlowed_12: -8628117895874208766
+      BubbleSlowed_13: -5945906374591174492
+      BubbleSlowed_14: 7778816211339201642
+      BubbleSlowed_15: 413888670692010598
+      BubbleSlowed_16: -8253946103556042606
+      BubbleSlowed_17: 1216459499424246765
+      BubbleSlowed_18: 3010349666238950623
+      BubbleSlowed_19: -7806505499861479260
+      BubbleSlowed_2: -9114574496669982240
+      BubbleSlowed_20: -7575859343170257399
+      BubbleSlowed_21: -4783648766326760599
+      BubbleSlowed_22: 6181972663193021273
+      BubbleSlowed_23: -232950366864295227
+      BubbleSlowed_24: -2297299218234761254
+      BubbleSlowed_25: 1285549216330525531
+      BubbleSlowed_26: -669777035065311515
+      BubbleSlowed_27: 7803491196816771384
+      BubbleSlowed_28: 2222878028477635400
+      BubbleSlowed_29: -6203062790305778555
+      BubbleSlowed_3: -8174674905442181676
+      BubbleSlowed_30: 8445946231419854595
+      BubbleSlowed_31: -4659807002066093731
+      BubbleSlowed_32: 3722794867547397368
+      BubbleSlowed_33: -4164572761107076855
+      BubbleSlowed_34: 7317977061598679957
+      BubbleSlowed_35: 761111208451682366
+      BubbleSlowed_36: 6149795535540810710
+      BubbleSlowed_37: 4642881419415968000
+      BubbleSlowed_38: 86284574408418951
+      BubbleSlowed_39: 2337889529694100596
+      BubbleSlowed_4: -5771988008918750662
+      BubbleSlowed_5: 7697312821206360407
+      BubbleSlowed_6: -8577859963165797117
+      BubbleSlowed_7: -2874802387313106125
+      BubbleSlowed_8: 6673615818416637222
+      BubbleSlowed_9: 700348895728511298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
