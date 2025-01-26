@@ -412,6 +412,12 @@ MonoBehaviour:
   _positionSpringConstant: 50
   _positionSpringDamping: 9
   _speedScale: 3
+  OnHarden:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnHarden:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5325699286766219150
 GameObject:
   m_ObjectHideFlags: 0

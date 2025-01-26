@@ -221,11 +221,6 @@ namespace Bubble
                     // We are the one to absorb
                     AbsorbBubble(bubble);
                 }
-                else
-                {
-                    // We become a child
-                    bubble.AbsorbBubble(this);
-                }
             }
         }
 
@@ -240,6 +235,11 @@ namespace Bubble
             if (bubble.BubbleType == BubbleType.Negative)
             {
                 return false;
+            }
+
+            if (_bubbleType == BubbleType.Negative)
+            {
+                return true;
             }
 
             // Players always absorb friendlies

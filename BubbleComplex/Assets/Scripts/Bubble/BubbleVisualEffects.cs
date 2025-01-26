@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 using Util;
 
 namespace Bubble
@@ -35,6 +36,14 @@ namespace Bubble
         [SerializeField]
         private float _speedScale;
 
+        [Header("Events")]
+
+        [SerializeField]
+        private UnityEvent OnHarden;
+
+        [SerializeField]
+        private UnityEvent OnUnHarden;
+
         private Vector2 _targetPosition;
         private Vector2 _visualPositionVelocity;
         private Vector2 _visualPosition;
@@ -47,6 +56,7 @@ namespace Bubble
         {
             _bubble.OnRadiusChanged += OnRadiusChanged;
             _bubble.OnPositionChanged += OnPositionChanged;
+            _bubble.OnHardenedChanged.AddListener(OnHardenedChanged);
         }
 
         private void Update()
@@ -76,6 +86,19 @@ namespace Bubble
         {
             _bubble.OnRadiusChanged -= OnRadiusChanged;
             _bubble.OnPositionChanged -= OnPositionChanged;
+            _bubble.OnHardenedChanged.AddListener(OnHardenedChanged);
+        }
+
+        private void OnHardenedChanged(bool hardened)
+        {
+            if (hardened)
+            {
+                OnHarden.Invoke();
+            }
+            else
+            {
+                OnUnHarden.Invoke();
+            }
         }
 
         private void OnRadiusChanged(float radius)

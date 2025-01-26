@@ -67,7 +67,7 @@ namespace Protag
 
             if (_movementState == MovementState.Normal)
             {
-                if (_isInteracting)
+                if (_isInteracting && _bubble.BubbleState != Bubble.Bubble.BubbleStates.Child)
                 {
                     EnterHarden();
                 }
