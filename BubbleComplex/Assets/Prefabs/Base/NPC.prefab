@@ -277,6 +277,8 @@ MonoBehaviour:
   _bubble: {fileID: 0}
   _globalState: {fileID: 11400000, guid: 76a31b8980c277442a7a474929ed852c, type: 2}
   _body: {fileID: 1298389359534834404}
+  _anim: {fileID: 582583217146835411}
+  _spriteRenderer: {fileID: 7292358170426429234}
   _wanderingMovement:
     Speed: 2.5
     Acceleration: 4
@@ -301,6 +303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4673099848954448393}
   - component: {fileID: 7292358170426429234}
+  - component: {fileID: 582583217146835411}
   m_Layer: 0
   m_Name: meeple-sprite_0 (1)
   m_TagString: Untagged
@@ -378,3 +381,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &582583217146835411
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6991442061046726682}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b764972d81dcfed458f2d156179d53d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
