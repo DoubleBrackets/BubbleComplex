@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1740527735
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1663331682871366807, guid: 3fd63e6a7621ce849aa5dbc8571249ac, type: 3}
   m_Color: {r: 0.53928727, g: 1, b: 0.53144646, a: 1}
@@ -139,12 +139,12 @@ MonoBehaviour:
   _globalState: {fileID: 11400000, guid: 76a31b8980c277442a7a474929ed852c, type: 2}
   _body: {fileID: 4757452605506604666}
   _movementConfig:
-    Speed: 2
+    Speed: 2.5
     Acceleration: 5
   _followMovementConfig:
-    Speed: 4.5
-    Acceleration: 2
-  _followDistance: 1.6
+    Speed: 5.5
+    Acceleration: 2.4
+  _followDistance: 2
   _wanderRadius: 4.25
   _wanderChangeTimeRange: {x: 3, y: 6}
 --- !u!114 &5767013573509870052
@@ -382,10 +382,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8008651870557121140}
     m_Modifications:
+    - target: {fileID: 1393933495019500893, guid: c306d64e4b702704ab14ca33302e33ec, type: 3}
+      propertyPath: m_Radius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2122970827342545919, guid: c306d64e4b702704ab14ca33302e33ec, type: 3}
       propertyPath: _positionTracker
       value: 
       objectReference: {fileID: 4757452605506604666}
+    - target: {fileID: 2122970827342545919, guid: c306d64e4b702704ab14ca33302e33ec, type: 3}
+      propertyPath: _individualRadius
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3287680204571114791, guid: c306d64e4b702704ab14ca33302e33ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
