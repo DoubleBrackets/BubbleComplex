@@ -26,7 +26,7 @@ namespace Protag
         private SimpleMovement _simpleMovement;
 
         [SerializeField]
-        private Animator _animator;
+        public Animator _animator;
 
         [SerializeField]
         private Bubble.Bubble _bubble;

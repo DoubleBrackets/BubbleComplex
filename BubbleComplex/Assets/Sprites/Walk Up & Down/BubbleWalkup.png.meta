@@ -1,0 +1,880 @@
+fileFormatVersion: 2
+guid: 6db683247b46f5242ad4dc8295b6ce59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3467058965430773808
+    second: BubbleWalkup_0
+  - first:
+      213: 5023921061489484643
+    second: BubbleWalkup_1
+  - first:
+      213: 5115996024420850837
+    second: BubbleWalkup_2
+  - first:
+      213: -5520944772002988600
+    second: BubbleWalkup_3
+  - first:
+      213: 7230624666743964016
+    second: BubbleWalkup_4
+  - first:
+      213: -8100629116056436365
+    second: BubbleWalkup_5
+  - first:
+      213: -8755173956973552919
+    second: BubbleWalkup_6
+  - first:
+      213: -1665227236412414730
+    second: BubbleWalkup_7
+  - first:
+      213: 7365207780587229913
+    second: BubbleWalkup_8
+  - first:
+      213: -7094810647273318617
+    second: BubbleWalkup_9
+  - first:
+      213: -1055730233171432782
+    second: BubbleWalkup_10
+  - first:
+      213: -7284650289936893387
+    second: BubbleWalkup_11
+  - first:
+      213: 153604939379560148
+    second: BubbleWalkup_12
+  - first:
+      213: -8933070976076146499
+    second: BubbleWalkup_13
+  - first:
+      213: 4371011682184096679
+    second: BubbleWalkup_14
+  - first:
+      213: -5400681524071119901
+    second: BubbleWalkup_15
+  - first:
+      213: -6329454599566794171
+    second: BubbleWalkup_16
+  - first:
+      213: 7261464159944043024
+    second: BubbleWalkup_17
+  - first:
+      213: 2946754672995944989
+    second: BubbleWalkup_18
+  - first:
+      213: 5300444172649852711
+    second: BubbleWalkup_19
+  - first:
+      213: -3160420134256466739
+    second: BubbleWalkup_20
+  - first:
+      213: 5756278296753112162
+    second: BubbleWalkup_21
+  - first:
+      213: 391721089946491230
+    second: BubbleWalkup_22
+  - first:
+      213: -470319635903774996
+    second: BubbleWalkup_23
+  - first:
+      213: -2627146988016783794
+    second: BubbleWalkup_24
+  - first:
+      213: 6847732860697640200
+    second: BubbleWalkup_25
+  - first:
+      213: -5008895005323540583
+    second: BubbleWalkup_26
+  - first:
+      213: 5742723550212036193
+    second: BubbleWalkup_27
+  - first:
+      213: 8973245131385850302
+    second: BubbleWalkup_28
+  - first:
+      213: 5805340004585545545
+    second: BubbleWalkup_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BubbleWalkup_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 566
+        width: 183
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d75a2e7d3882efc0800000000000000
+      internalID: -3467058965430773808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 564
+        width: 182
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3632fa9669d88b540800000000000000
+      internalID: 5023921061489484643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 562
+        width: 182
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c5aeb474baff640800000000000000
+      internalID: 5115996024420850837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_3
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 560
+        width: 183
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd36382bf9a163b0800000000000000
+      internalID: -5520944772002988600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_4
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 560
+        width: 183
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071837d23d6585460800000000000000
+      internalID: 7230624666743964016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_5
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 560
+        width: 183
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3710548ecb8c49f80800000000000000
+      internalID: -8100629116056436365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_6
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 563
+        width: 183
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea17db4caf5f7680800000000000000
+      internalID: -8755173956973552919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_7
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 566
+        width: 183
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f42557b6ace3e8e0800000000000000
+      internalID: -1665227236412414730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_8
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 569
+        width: 183
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d258d23479763660800000000000000
+      internalID: 7365207780587229913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_9
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 573
+        width: 183
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7275d946e4b2a8d90800000000000000
+      internalID: -7094810647273318617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 185
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba2d2942fa4951f0800000000000000
+      internalID: -1055730233171432782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_11
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 307
+        width: 187
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a7d533829b7ea90800000000000000
+      internalID: -7284650289936893387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_12
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 304
+        width: 187
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dec677e0e6b12200800000000000000
+      internalID: 153604939379560148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_13
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 300
+        width: 187
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db811a5d64b570480800000000000000
+      internalID: -8933070976076146499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_14
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 298
+        width: 184
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab6aa167f3f8ac30800000000000000
+      internalID: 4371011682184096679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_15
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 296
+        width: 183
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3c9b494ccec05b0800000000000000
+      internalID: -5400681524071119901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_16
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 294
+        width: 183
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542ebda93924928a0800000000000000
+      internalID: -6329454599566794171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_17
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 291
+        width: 182
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ae1ba3e27e5c460800000000000000
+      internalID: 7261464159944043024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_18
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 285
+        width: 182
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a452433c9f4e820800000000000000
+      internalID: 2946754672995944989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_19
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 281
+        width: 182
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f659e54e5fe8940800000000000000
+      internalID: 5300444172649852711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 4
+        width: 183
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4a6ace1aee324d0800000000000000
+      internalID: -3160420134256466739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_21
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1
+        width: 183
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2648242ec9862ef40800000000000000
+      internalID: 5756278296753112162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_22
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1
+        width: 182
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e591a41814caf6500800000000000000
+      internalID: 391721089946491230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_23
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 4
+        width: 182
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee701378c61979f0800000000000000
+      internalID: -470319635903774996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_24
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 7
+        width: 183
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ea58ecbbf7a8bd0800000000000000
+      internalID: -2627146988016783794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_25
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 10
+        width: 183
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80df6a681c8080f50800000000000000
+      internalID: 6847732860697640200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_26
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 14
+        width: 183
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997467ae784dc7ab0800000000000000
+      internalID: -5008895005323540583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_27
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 18
+        width: 182
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16698a584a042bf40800000000000000
+      internalID: 5742723550212036193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_28
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 18
+        width: 183
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9c1ca97ee578c70800000000000000
+      internalID: 8973245131385850302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BubbleWalkup_29
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 18
+        width: 183
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f9fa5e9f5b09050800000000000000
+      internalID: 5805340004585545545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
