@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Bubble
   - 
   - 
   - 
@@ -41,8 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: BottomBubble
+    uniqueID: 100810019
+    locked: 0
   - name: People
     uniqueID: 2554439561
+    locked: 0
+  - name: Bubble
+    uniqueID: 3671315591
     locked: 0
   m_RenderingLayers:
   - Default
