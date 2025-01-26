@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      froezn-shards_0: 4164370409370787089
+      froezn-shards_1: -2146767226435546735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
