@@ -99,24 +99,18 @@ namespace NPC
             {
                 case State.Wandering:
                     Wander();
+                    FlipTowardsVel();
+
                     break;
                 case State.TetheredToPlayer:
                     Tethered();
                     break;
                 case State.MovingTowardsPlayer:
                     MoveTowardsPlayer();
+                    FlipTowardsVel();
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
-            }
-
-            if (_simpleMovement.Rb.linearVelocity.x > 0)
-            {
-                _spriteRenderer.flipX = false;
-            }
-            else if (_simpleMovement.Rb.linearVelocity.x < 0)
-            {
-                _spriteRenderer.flipX = true;
             }
         }
 
@@ -144,6 +138,18 @@ namespace NPC
             else
             {
                 Gizmos.DrawWireSphere(_body.position, _wanderRadius);
+            }
+        }
+
+        private void FlipTowardsVel()
+        {
+            if (_simpleMovement.Rb.linearVelocity.x > 0)
+            {
+                _spriteRenderer.flipX = false;
+            }
+            else if (_simpleMovement.Rb.linearVelocity.x < 0)
+            {
+                _spriteRenderer.flipX = true;
             }
         }
 
@@ -247,11 +253,18 @@ namespace NPC
                     _simpleMovement.StandStill(_tetheredMovementConfig, Time.deltaTime);
                     _anim.Play(WalkAnim(Vector2.zero));
                 }
+
+                FlipTowardsVel();
             }
             else
             {
+                _targetPosition = _globalState.PlayerPos;
+
+                Vector2 direction = _targetPosition - (Vector2)_body.position;
                 _simpleMovement.StandStill(_tetheredMovementConfig, Time.deltaTime);
                 _anim.Play("Shout");
+
+                _spriteRenderer.flipX = direction.x < 0;
             }
         }
 
