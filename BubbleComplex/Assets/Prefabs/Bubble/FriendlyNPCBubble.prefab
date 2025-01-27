@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: _individualRadius
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 518333604289352002, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnAbsorbedOther.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 518333604289352002, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: OnAbsorbedOther.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 657257481079252960, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: m_Radius
       value: 2
@@ -63,6 +71,14 @@ PrefabInstance:
     - target: {fileID: 4723450768595696674, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: m_Name
       value: FriendlyNPCBubble
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: _speedScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716263668720419452, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: _positionBump
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

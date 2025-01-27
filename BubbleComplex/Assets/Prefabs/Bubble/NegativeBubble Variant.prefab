@@ -104,6 +104,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5747363823686140500}
     - target: {fileID: 518333604289352002, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
+      propertyPath: _childWeightRatio
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 518333604289352002, guid: 7c3cebf603ce0f241a566f7d5bbbf604, type: 3}
       propertyPath: _individualRadius
       value: 2
       objectReference: {fileID: 0}

@@ -288,8 +288,8 @@ MonoBehaviour:
   _tetheredMovementConfig:
     Speed: 5.5
     Acceleration: 5
-  _bounceAwayVelocity: 15
-  _followDistance: 3
+  _bounceAwayVelocity: 20
+  _followDistance: 2
   _tetherBehavior: 0
   _wanderRadius: 9.07
   _wanderChangeTimeRange: {x: 3, y: 7}

@@ -16,6 +16,10 @@ PrefabInstance:
       propertyPath: _tetherBehavior
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 724785954236969761, guid: 485d76ab7d2700b4e9f2c38d6c99002f, type: 3}
+      propertyPath: _bounceAwayVelocity
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 2992931852778533534, guid: 485d76ab7d2700b4e9f2c38d6c99002f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.5

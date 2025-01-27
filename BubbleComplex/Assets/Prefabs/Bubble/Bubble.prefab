@@ -306,7 +306,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Radius: 0.75
 --- !u!1 &4723450768595696674
 GameObject:
   m_ObjectHideFlags: 0
@@ -335,8 +335,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2230630530365205926}
   - {fileID: 5543710968759435751}
@@ -359,9 +359,9 @@ MonoBehaviour:
   _bubbleLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  _individualRadius: 1
+  _individualRadius: 0.75
   _bubbleType: 0
-  _childWeightRatio: 0.7
+  _childWeightRatio: 0.5
   _circleCollider2D: {fileID: 657257481079252960}
   _positionTracker: {fileID: 4028219902507544474}
   _realTransform: {fileID: 5543710968759435751}
@@ -408,12 +408,12 @@ MonoBehaviour:
   _visualTransform: {fileID: 4685379661775337156}
   _radiusSpringConstant: 50
   _radiusSpringDamping: 10
-  _radiusMargin: 0.5
+  _radiusMargin: 0.7
   _radiusBump: 2
   _positionSpringConstant: 50
-  _positionSpringDamping: 9
+  _positionSpringDamping: 7
   _speedScale: 3
-  _positionBump: 10
+  _positionBump: 15
   OnHarden:
     m_PersistentCalls:
       m_Calls: []
