@@ -44,11 +44,11 @@ TagManager:
   - name: Background
     uniqueID: 2821216375
     locked: 0
-  - name: Terrain
-    uniqueID: 3779037401
-    locked: 0
   - name: BottomBubble
     uniqueID: 100810019
+    locked: 0
+  - name: Terrain
+    uniqueID: 3779037401
     locked: 0
   - name: People
     uniqueID: 2554439561

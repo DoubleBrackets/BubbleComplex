@@ -188,12 +188,12 @@ TextureImporter:
       name: BubbleHardenedDown_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 801
-        width: 188
-        height: 266
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: BubbleHardenedDown_1
       rect:
         serializedVersion: 2
-        x: 275
-        y: 803
-        width: 185
-        height: 264
+        x: 274
+        y: 801
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,12 +232,12 @@ TextureImporter:
       name: BubbleHardenedDown_2
       rect:
         serializedVersion: 2
-        x: 549
-        y: 804
-        width: 185
-        height: 263
+        x: 548
+        y: 801
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -254,12 +254,12 @@ TextureImporter:
       name: BubbleHardenedDown_3
       rect:
         serializedVersion: 2
-        x: 823
-        y: 806
-        width: 186
-        height: 261
+        x: 822
+        y: 801
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: BubbleHardenedDown_4
       rect:
         serializedVersion: 2
-        x: 1097
-        y: 807
-        width: 191
-        height: 260
+        x: 1096
+        y: 801
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: BubbleHardenedDown_5
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 809
-        width: 195
-        height: 258
+        x: 1370
+        y: 801
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: BubbleHardenedDown_6
       rect:
         serializedVersion: 2
-        x: 1645
-        y: 812
-        width: 200
-        height: 255
+        x: 1644
+        y: 801
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: BubbleHardenedDown_7
       rect:
         serializedVersion: 2
-        x: 1
-        y: 550
-        width: 205
-        height: 251
+        x: 0
+        y: 534
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -364,12 +364,12 @@ TextureImporter:
       name: BubbleHardenedDown_8
       rect:
         serializedVersion: 2
-        x: 275
-        y: 554
-        width: 209
-        height: 247
+        x: 274
+        y: 534
+        width: 274
+        height: 267
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -386,12 +386,12 @@ TextureImporter:
       name: BubbleHardenedDown_9
       rect:
         serializedVersion: 2
-        x: 549
-        y: 562
-        width: 215
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 548
+        y: 534
+        width: 274
+        height: 267
+      alignment: 9
+      pivot: {x: 0.49528226, y: 0.577463}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -408,12 +408,12 @@ TextureImporter:
       name: BubbleHardenedDown_10
       rect:
         serializedVersion: 2
-        x: 823
-        y: 573
-        width: 220
-        height: 228
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 822
+        y: 534
+        width: 274
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5094355, y: 0.5823044}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -430,12 +430,12 @@ TextureImporter:
       name: BubbleHardenedDown_11
       rect:
         serializedVersion: 2
-        x: 1097
-        y: 587
-        width: 235
-        height: 214
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1096
+        y: 534
+        width: 274
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5094355, y: 0.7081818}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -452,12 +452,12 @@ TextureImporter:
       name: BubbleHardenedDown_12
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 601
-        width: 250
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1373
+        y: 534
+        width: 274
+        height: 267
+      alignment: 9
+      pivot: {x: 0.52830696, y: 0.82437646}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -474,12 +474,12 @@ TextureImporter:
       name: BubbleHardenedDown_13
       rect:
         serializedVersion: 2
-        x: 1645
-        y: 618
-        width: 262
-        height: 183
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1644
+        y: 534
+        width: 274
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5471775, y: 0.8873154}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -496,12 +496,12 @@ TextureImporter:
       name: BubbleHardenedDown_14
       rect:
         serializedVersion: 2
-        x: 1
-        y: 363
-        width: 268
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 267
+        width: 274
+        height: 267
+      alignment: 9
+      pivot: {x: 0.51887107, y: 0.9308881}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -518,12 +518,12 @@ TextureImporter:
       name: BubbleHardenedDown_15
       rect:
         serializedVersion: 2
-        x: 275
-        y: 356
-        width: 270
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 274
+        y: 267
+        width: 274
+        height: 267
+      alignment: 9
+      pivot: {x: 0.5094355, y: 0.9502541}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -540,12 +540,12 @@ TextureImporter:
       name: BubbleHardenedDown_16
       rect:
         serializedVersion: 2
-        x: 549
-        y: 355
-        width: 272
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 548
+        y: 267
+        width: 274
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -562,12 +562,12 @@ TextureImporter:
       name: BubbleHardenedDown_17
       rect:
         serializedVersion: 2
-        x: 823
-        y: 354
+        x: 822
+        y: 267
         width: 274
-        height: 181
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -584,12 +584,12 @@ TextureImporter:
       name: BubbleHardenedDown_18
       rect:
         serializedVersion: 2
-        x: 1097
-        y: 353
-        width: 273
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1096
+        y: 267
+        width: 274
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -606,12 +606,12 @@ TextureImporter:
       name: BubbleHardenedDown_19
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 351
-        width: 270
-        height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1370
+        y: 267
+        width: 274
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -628,12 +628,12 @@ TextureImporter:
       name: BubbleHardenedDown_20
       rect:
         serializedVersion: 2
-        x: 1645
-        y: 350
-        width: 265
-        height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1644
+        y: 267
+        width: 274
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -650,12 +650,12 @@ TextureImporter:
       name: BubbleHardenedDown_21
       rect:
         serializedVersion: 2
-        x: 1
-        y: 84
-        width: 260
-        height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 274
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -672,12 +672,12 @@ TextureImporter:
       name: BubbleHardenedDown_22
       rect:
         serializedVersion: 2
-        x: 275
-        y: 84
-        width: 254
-        height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 274
+        y: 0
+        width: 274
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -694,12 +694,12 @@ TextureImporter:
       name: BubbleHardenedDown_23
       rect:
         serializedVersion: 2
-        x: 549
-        y: 84
-        width: 247
-        height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 548
+        y: 0
+        width: 274
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -716,12 +716,12 @@ TextureImporter:
       name: BubbleHardenedDown_24
       rect:
         serializedVersion: 2
-        x: 823
-        y: 84
-        width: 240
-        height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 822
+        y: 0
+        width: 274
+        height: 267
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -738,7 +738,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6b0fa93e4a9d1284087160ab89e6475e
     internalID: 0
     vertices: []
     indices: 

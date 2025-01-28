@@ -212,12 +212,12 @@ TextureImporter:
       name: BubbleHardenedIdle_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 742
-        width: 233
+        x: 0
+        y: 743
+        width: 243
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: BubbleHardenedIdle_1
       rect:
         serializedVersion: 2
-        x: 244
+        x: 243
         y: 743
-        width: 234
-        height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 243
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: BubbleHardenedIdle_2
       rect:
         serializedVersion: 2
-        x: 487
-        y: 742
-        width: 234
+        x: 486
+        y: 743
+        width: 243
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: BubbleHardenedIdle_3
       rect:
         serializedVersion: 2
-        x: 730
-        y: 742
-        width: 233
+        x: 729
+        y: 743
+        width: 243
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,12 +300,12 @@ TextureImporter:
       name: BubbleHardenedIdle_4
       rect:
         serializedVersion: 2
-        x: 973
-        y: 742
-        width: 234
+        x: 972
+        y: 743
+        width: 243
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -322,12 +322,12 @@ TextureImporter:
       name: BubbleHardenedIdle_5
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 742
-        width: 234
+        x: 1215
+        y: 743
+        width: 243
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: BubbleHardenedIdle_6
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 742
-        width: 233
+        x: 1458
+        y: 743
+        width: 243
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,12 +366,12 @@ TextureImporter:
       name: BubbleHardenedIdle_7
       rect:
         serializedVersion: 2
-        x: 1702
+        x: 1701
         y: 743
-        width: 234
-        height: 184
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 243
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -388,12 +388,12 @@ TextureImporter:
       name: BubbleHardenedIdle_8
       rect:
         serializedVersion: 2
-        x: 1
-        y: 557
-        width: 233
+        x: 0
+        y: 558
+        width: 243
         height: 185
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -410,12 +410,12 @@ TextureImporter:
       name: BubbleHardenedIdle_9
       rect:
         serializedVersion: 2
-        x: 244
-        y: 560
-        width: 236
-        height: 182
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 243
+        y: 558
+        width: 243
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -432,12 +432,12 @@ TextureImporter:
       name: BubbleHardenedIdle_10
       rect:
         serializedVersion: 2
-        x: 487
-        y: 562
-        width: 238
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 486
+        y: 558
+        width: 243
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -454,12 +454,12 @@ TextureImporter:
       name: BubbleHardenedIdle_11
       rect:
         serializedVersion: 2
-        x: 730
-        y: 565
-        width: 240
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 729
+        y: 558
+        width: 243
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -476,12 +476,12 @@ TextureImporter:
       name: BubbleHardenedIdle_12
       rect:
         serializedVersion: 2
-        x: 973
-        y: 567
-        width: 242
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 972
+        y: 558
+        width: 243
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -498,12 +498,12 @@ TextureImporter:
       name: BubbleHardenedIdle_13
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 569
+        x: 1215
+        y: 558
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -520,12 +520,12 @@ TextureImporter:
       name: BubbleHardenedIdle_14
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 570
+        x: 1458
+        y: 558
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -542,12 +542,12 @@ TextureImporter:
       name: BubbleHardenedIdle_15
       rect:
         serializedVersion: 2
-        x: 1702
-        y: 569
+        x: 1701
+        y: 558
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -564,12 +564,12 @@ TextureImporter:
       name: BubbleHardenedIdle_16
       rect:
         serializedVersion: 2
-        x: 1
-        y: 385
+        x: 0
+        y: 373
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -586,12 +586,12 @@ TextureImporter:
       name: BubbleHardenedIdle_17
       rect:
         serializedVersion: 2
-        x: 244
-        y: 384
+        x: 243
+        y: 373
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -608,12 +608,12 @@ TextureImporter:
       name: BubbleHardenedIdle_18
       rect:
         serializedVersion: 2
-        x: 487
-        y: 385
+        x: 486
+        y: 373
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -630,12 +630,12 @@ TextureImporter:
       name: BubbleHardenedIdle_19
       rect:
         serializedVersion: 2
-        x: 730
-        y: 384
+        x: 729
+        y: 373
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -652,12 +652,12 @@ TextureImporter:
       name: BubbleHardenedIdle_20
       rect:
         serializedVersion: 2
-        x: 973
-        y: 385
+        x: 972
+        y: 373
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -674,12 +674,12 @@ TextureImporter:
       name: BubbleHardenedIdle_21
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 384
+        x: 1215
+        y: 373
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -696,12 +696,12 @@ TextureImporter:
       name: BubbleHardenedIdle_22
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 385
+        x: 1458
+        y: 373
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -718,12 +718,12 @@ TextureImporter:
       name: BubbleHardenedIdle_23
       rect:
         serializedVersion: 2
-        x: 1702
-        y: 384
+        x: 1701
+        y: 373
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -740,12 +740,12 @@ TextureImporter:
       name: BubbleHardenedIdle_24
       rect:
         serializedVersion: 2
-        x: 1
-        y: 200
+        x: 0
+        y: 188
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -762,12 +762,12 @@ TextureImporter:
       name: BubbleHardenedIdle_25
       rect:
         serializedVersion: 2
-        x: 244
-        y: 199
+        x: 243
+        y: 188
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -784,12 +784,12 @@ TextureImporter:
       name: BubbleHardenedIdle_26
       rect:
         serializedVersion: 2
-        x: 487
-        y: 200
+        x: 486
+        y: 188
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -806,12 +806,12 @@ TextureImporter:
       name: BubbleHardenedIdle_27
       rect:
         serializedVersion: 2
-        x: 730
-        y: 199
+        x: 729
+        y: 188
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -828,12 +828,12 @@ TextureImporter:
       name: BubbleHardenedIdle_28
       rect:
         serializedVersion: 2
-        x: 973
-        y: 200
+        x: 972
+        y: 188
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -850,12 +850,12 @@ TextureImporter:
       name: BubbleHardenedIdle_29
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 199
+        x: 1215
+        y: 188
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -872,12 +872,12 @@ TextureImporter:
       name: BubbleHardenedIdle_30
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 200
+        x: 1458
+        y: 188
         width: 243
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -894,12 +894,12 @@ TextureImporter:
       name: BubbleHardenedIdle_31
       rect:
         serializedVersion: 2
-        x: 1702
-        y: 199
+        x: 1701
+        y: 188
         width: 243
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -916,12 +916,12 @@ TextureImporter:
       name: BubbleHardenedIdle_32
       rect:
         serializedVersion: 2
-        x: 1
-        y: 7
-        width: 238
-        height: 180
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 3
+        width: 243
+        height: 185
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -938,7 +938,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a51629c7aabd9664e9a86c0edc4633ef
     internalID: 0
     vertices: []
     indices: 

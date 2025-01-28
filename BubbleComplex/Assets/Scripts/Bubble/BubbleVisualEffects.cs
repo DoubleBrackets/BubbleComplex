@@ -65,6 +65,9 @@ namespace Bubble
             _bubble.OnHardenedChanged.AddListener(OnHardenedChanged);
             _bubble.OnBumpIntoHardened.AddListener(OnBumpIntoHardened);
             _bubble.OnBumpedIntoWhenHardened.AddListener(OnBumpedIntoWhenHardened);
+
+            _visualPosition = _bubble.IndividualPosition;
+            _visualRadius = _bubble.IndividualRadius;
         }
 
         private void Update()

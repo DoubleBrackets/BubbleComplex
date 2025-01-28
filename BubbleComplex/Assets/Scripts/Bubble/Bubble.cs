@@ -190,11 +190,6 @@ namespace Bubble
 
         private void TryMerge()
         {
-            if (_bubbleState == BubbleStates.Child)
-            {
-                return;
-            }
-
             Collider2D[] colls = Physics2D.OverlapCircleAll(_realPosition, _realRadius, _bubbleLayerMask);
             List<Bubble> overlappingBubbles = new();
 
@@ -248,6 +243,11 @@ namespace Bubble
                 return false;
             }
 
+            if (_bubbleState == BubbleStates.Child)
+            {
+                return false;
+            }
+
             if (_bubbleType == BubbleType.Negative)
             {
                 return true;
@@ -281,6 +281,7 @@ namespace Bubble
             {
                 Debug.Log($"{name} STEALS CHILD {child.name}");
                 child.BecomeChild(this);
+                _childBubbles.Add(child);
                 OnAbsorbedOther?.Invoke(child);
             }
 
