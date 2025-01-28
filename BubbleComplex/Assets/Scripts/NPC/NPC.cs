@@ -180,7 +180,7 @@ namespace NPC
             Vector2 direction = _targetPosition - (Vector2)_body.position;
 
             _simpleMovement.Move(_followMovementConfig, direction, Time.deltaTime);
-            _anim.Play(WalkAnim(direction));
+            _anim.Play(WalkAnim());
         }
 
         private void OnAbsorbedByOther(Bubble.Bubble other)
@@ -216,12 +216,12 @@ namespace NPC
             if (direction.magnitude > 0.5f)
             {
                 _simpleMovement.Move(_wanderingMovement, direction, Time.deltaTime);
-                _anim.Play(WalkAnim(direction));
+                _anim.Play(WalkAnim());
             }
             else
             {
                 _simpleMovement.StandStill(_wanderingMovement, Time.deltaTime);
-                _anim.Play(WalkAnim(Vector2.zero));
+                _anim.Play(WalkAnim());
             }
 
             // Distance from wander center
@@ -246,12 +246,12 @@ namespace NPC
                 if (direction.magnitude > _followDistance)
                 {
                     _simpleMovement.Move(_tetheredMovementConfig, direction, Time.deltaTime);
-                    _anim.Play(WalkAnim(direction));
+                    _anim.Play(WalkAnim());
                 }
                 else
                 {
                     _simpleMovement.StandStill(_tetheredMovementConfig, Time.deltaTime);
-                    _anim.Play(WalkAnim(Vector2.zero));
+                    _anim.Play(WalkAnim());
                 }
 
                 FlipTowardsVel();
@@ -268,19 +268,20 @@ namespace NPC
             }
         }
 
-        private string WalkAnim(Vector2 input)
+        private string WalkAnim()
         {
-            if (input == Vector2.zero)
+            Vector2 velocity = _simpleMovement.Rb.linearVelocity;
+            if (velocity.magnitude < 1f)
             {
                 return "Idle";
             }
 
-            if (input.y > Mathf.Abs(input.x))
+            if (velocity.y > Mathf.Abs(velocity.x))
             {
                 return "Walk Up R";
             }
 
-            if (input.y < Mathf.Abs(input.x))
+            if (velocity.y < Mathf.Abs(velocity.x))
             {
                 return "Walk Down R";
             }

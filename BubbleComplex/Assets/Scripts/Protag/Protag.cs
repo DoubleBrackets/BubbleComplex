@@ -80,7 +80,7 @@ namespace Protag
                 }
                 else
                 {
-                    _animator.Play(WalkAnim(_horizontalMovement));
+                    _animator.Play(WalkAnim());
                 }
             }
             else if (_movementState == MovementState.Harden)
@@ -156,9 +156,10 @@ namespace Protag
             _animator.Play("HardenedUp");
         }
 
-        private string WalkAnim(Vector2 input)
+        private string WalkAnim()
         {
-            if (input == Vector2.zero)
+            Vector2 input = _simpleMovement.Rb.linearVelocity;
+            if (input.magnitude < 2f)
             {
                 return "Idle";
             }
