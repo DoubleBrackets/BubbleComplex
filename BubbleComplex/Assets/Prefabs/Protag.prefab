@@ -350,7 +350,7 @@ MonoBehaviour:
   _onEnterNegative: {fileID: 11400000, guid: 6b5e306bccebbfd42852212224aace95, type: 2}
   _onExitNegative: {fileID: 11400000, guid: 863a4022c36c7a140a1f2782c7c16c7f, type: 2}
   _movementConfig:
-    Speed: 5
+    Speed: 4.5
     Acceleration: 12
   _negativeConfig:
     Speed: 1.5
