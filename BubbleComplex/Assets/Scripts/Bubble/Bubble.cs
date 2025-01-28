@@ -190,6 +190,11 @@ namespace Bubble
 
         private void TryMerge()
         {
+            if (_bubbleState == BubbleStates.Child)
+            {
+                return;
+            }
+
             Collider2D[] colls = Physics2D.OverlapCircleAll(_realPosition, _realRadius, _bubbleLayerMask);
             List<Bubble> overlappingBubbles = new();
 
